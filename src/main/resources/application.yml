@@ -11,11 +11,4 @@ spring:
       password: ${traffic.datasource.password}
 
 logging:
-  level:
-    org:
-      springframework:
-        web: DEBUG
-        security: DEBUG
-        data: DEBUG
-        jdbc: DEBUG
-        orm: DEBUG
+  config: classpath:logback-spring.xml # 日志配置文件

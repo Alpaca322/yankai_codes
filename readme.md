@@ -2,7 +2,8 @@
 
 ### java版本 java23
 ### 采用mybatis
-###  项目文件结构
+### 项目文件结构
+### 使用@Slf4j注解，log.info()记录日志
 ```
 config springboot配置
 controller - service - mapper - entity 结构
@@ -14,5 +15,4 @@ dto 用于接受前端传来的数据
 vo 用于返回给前端的数据
 exception 异常处理
 Result 返回给前端的数据格式
-
 ```

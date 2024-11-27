@@ -5,9 +5,11 @@ import com.example.exception.BaseException;
 import com.example.mapper.DataRecordsMapper;
 import com.example.service.DataRecordsService;
 import lombok.Data;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+@Slf4j
 @Service
 public class DataRecordsServiceImpl implements DataRecordsService {
 
@@ -20,6 +22,7 @@ public class DataRecordsServiceImpl implements DataRecordsService {
 
         DataRecords dataRecords = dataRecordsMapper.getById(id);
         if (dataRecords == null){
+            log.info("查询失败");
             throw  new BaseException("查询失败");
         }
         return dataRecords;

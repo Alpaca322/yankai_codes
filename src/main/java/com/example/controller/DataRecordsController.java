@@ -18,6 +18,7 @@ public class DataRecordsController {
 
     @GetMapping("/{id}")
     public Result getById(@PathVariable Long id){
+        log.info("getById: id={}", id);
         return Result.success(dataRecordsService.getById(id));
     }
 }
