@@ -1,0 +1,8 @@
+traffic:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    host: 116.62.214.255
+    port: 3306
+    database: opencv
+    username: remote_user
+    password: 123456789

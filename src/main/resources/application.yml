@@ -1,0 +1,21 @@
+spring:
+  profiles:
+    active: dev # dev, test, prod
+  main:
+    allow-circular-references: true # 允许循环依赖
+  datasource:
+    druid:
+      driver-class-name: ${traffic.datasource.driver-class-name}
+      url: jdbc:mysql://${traffic.datasource.host}:${traffic.datasource.port}/${traffic.datasource.database}?serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&useSSL=false&allowPublicKeyRetrieval=true
+      username: ${traffic.datasource.username}
+      password: ${traffic.datasource.password}
+
+logging:
+  level:
+    org:
+      springframework:
+        web: DEBUG
+        security: DEBUG
+        data: DEBUG
+        jdbc: DEBUG
+        orm: DEBUG
