@@ -2,8 +2,8 @@
 
 ### java版本 java23
 ### 采用mybatis
-### 项目文件结构
 ### 使用@Slf4j注解，log.info()记录日志
+### 项目文件结构
 ```
 config springboot配置
 controller - service - mapper - entity 结构
