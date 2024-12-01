@@ -22,4 +22,16 @@
         </set>
         where UserID = #{UserID}
     </update>
+
+    <select id="query" parameterType="Users">
+        select * from Users
+        <where>
+            <if test="Username != null and Username != ''">
+                and Username = #{username}
+            </if>
+            <if test="Email != null and Email != ''">
+                and Email = #{email}
+            </if>
+        </where>
+    </select>
 </mapper>

@@ -39,4 +39,19 @@ public interface UserService {
      * @return
      */
     Result getUserById(Long id);
+
+    /**
+     * 删除用户
+     * @param id
+     * @return
+     */
+    Result deleteUser(Long id);
+
+    /**
+     * 查询用户
+     * @param username
+     * @param email
+     * @return
+     */
+    Result query(String username, String email);
 }

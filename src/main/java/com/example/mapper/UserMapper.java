@@ -1,9 +1,11 @@
 package com.example.mapper;
 
 import com.example.entity.Users;
+import org.apache.ibatis.annotations.Delete;
 import org.apache.ibatis.annotations.Insert;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Select;
+import org.springframework.web.bind.annotation.DeleteMapping;
 
 import java.util.List;
 
@@ -46,4 +48,18 @@ public interface UserMapper {
      */
     @Select("select * from Users where UserID = #{id}")
     Users getUserById(Long id);
+
+    /**
+     * 删除
+     * @param id
+     */
+    @Delete("delete from Users where UserID = #{id}")
+    void deleteUser(Long id);
+
+    /**
+     * 查询
+     * @param user
+     * @return
+     */
+    List<Users> query(Users user);
 }

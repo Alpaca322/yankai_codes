@@ -69,4 +69,27 @@ public class UserServiceImpl implements UserService {
         Users user = userMapper.getUserById(id);
         return Result.success(user);
     }
+
+    public Result deleteUser(Long id) {
+        if (id == null){
+            throw new BaseException("id不能为空");
+        }
+        userMapper.deleteUser(id);
+        return Result.success("删除成功");
+    }
+
+    public Result query(String username, String email) {
+        if (username == null && email == null){
+            this.getUsers();
+        }
+        if (username == "" && email == ""){
+            this.getUsers();
+        }
+        Users user = new Users();
+        user.setUsername(username);
+        user.setEmail(email);
+        List<Users> users = userMapper.query(user);
+        return Result.success(users);
+    }
+
 }

@@ -4,6 +4,7 @@ import com.example.controller.DataRecordsController;
 import com.example.controller.UserController;
 import com.example.dto.UserDTO;
 import com.example.entity.Users;
+import com.example.service.UserService;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -59,7 +60,21 @@ class TrafficApplicationTests {
         userController.updateUser(user);
 
         System.out.println(userController.getUserById(3L));
+    }
 
+    @Test
+    void testDelete(){
+        System.out.println(userController.deleteUser(3L));
+        System.out.println(userController.getUsers());
+    }
+
+    @Autowired
+    private UserService userService;
+    @Test
+    void testQuery(){
+        System.out.println(userService.query("",""));
+        System.out.println("===================================");
+        System.out.println(userService.query("admin",""));
     }
 
 }

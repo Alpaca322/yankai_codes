@@ -9,7 +9,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
-@Controller
+@RestController
 @RequestMapping("/user")
 public class UserController {
 
@@ -18,7 +18,7 @@ public class UserController {
 
 
     @PostMapping("/login")
-    public Result login(@RequestParam UserDTO userDTO) {
+    public Result login(@RequestBody UserDTO userDTO) {
         return userService.login(userDTO);
     }
 
@@ -33,15 +33,25 @@ public class UserController {
     }
 
     @PutMapping
-    public Result updateUser(@RequestParam Users user){
+    public Result updateUser(@RequestBody Users user){
         return userService.updateUser(user);
     }
 
     @PostMapping
-    public Result addUser(@RequestParam Users user){
+    public Result addUser(@RequestBody Users user){
         return userService.addUser(user);
     }
 
+
+    @DeleteMapping("/{id}")
+    public Result deleteUser(@PathVariable Long id){
+        return userService.deleteUser(id);
+    }
+
+    @GetMapping("/query")
+    public Result query(@RequestParam String username,@RequestParam String email){
+        return userService.query(username,email);
+    }
 
 
 
