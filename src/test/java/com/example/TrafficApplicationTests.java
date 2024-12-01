@@ -1,8 +1,10 @@
 package com.example;
 
 import com.example.controller.DataRecordsController;
+import com.example.controller.DeviceController;
 import com.example.controller.UserController;
 import com.example.dto.UserDTO;
+import com.example.entity.Devices;
 import com.example.entity.Users;
 import com.example.service.UserService;
 import org.junit.jupiter.api.Test;
@@ -10,6 +12,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
 import javax.annotation.Resource;
+import java.time.LocalDateTime;
 
 @SpringBootTest
 class TrafficApplicationTests {
@@ -75,6 +78,51 @@ class TrafficApplicationTests {
         System.out.println(userService.query("",""));
         System.out.println("===================================");
         System.out.println(userService.query("admin",""));
+    }
+
+
+
+
+
+    @Autowired
+    private DeviceController deviceController;
+    @Test
+    void testGetDevices(){
+        System.out.println(deviceController.getDevices());
+    }
+
+    @Test
+    void testAddDevice(){
+        Devices device = new Devices();
+        device.setDeviceName("device1");
+        device.setDeviceType("1");
+        device.setStatus("1");
+        device.setFirmwareVersion("1.0");
+        device.setLastMaintenance(LocalDateTime.now());
+
+        System.out.println(deviceController.addDevice(device));
+    }
+
+    @Test
+    void testModifyDevice(){
+        Devices device = new Devices();
+        device.setDeviceID(1L);
+        device.setDeviceName("device1***");
+        deviceController.updateDevice(device);
+        System.out.println(deviceController.getDevices());
+    }
+
+    @Test
+    void testDeleteDevice(){
+        System.out.println(deviceController.deleteDevice(1L));
+        System.out.println(deviceController.getDevices());
+    }
+
+    @Test
+    void testQueryDevice(){
+        System.out.println(deviceController.query("",""));
+        System.out.println("===================================");
+        System.out.println(deviceController.query("device1",""));
     }
 
 }
