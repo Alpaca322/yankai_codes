@@ -12,3 +12,8 @@ spring:
 
 logging:
   config: classpath:logback-spring.xml # 日志配置文件
+
+mybatis:
+    #mapper配置文件
+    mapper-locations: classpath:mapper/*.xml
+    type-aliases-package: com.example.entity
