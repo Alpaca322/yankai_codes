@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>新建通知</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+  <h1>新建通知</h1>
+  <form id="notificationForm">
+    <input type="text" id="notificationType" placeholder="通知类型" required>
+    <textarea id="content" placeholder="内容" required></textarea>
+    <input type="text" id="creator" placeholder="创建者" required>
+    <input type="datetime-local" id="createTime" required>
+    <input type="datetime-local" id="endTime" required>
+    <button type="submit">添加通知</button>
+    <button type="button" onclick="location.href='index.html'">返回</button>
+  </form>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

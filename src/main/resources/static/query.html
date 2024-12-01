@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>查询通知</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <h1>查询通知</h1>
+    <div>
+        <input type="text" id="searchId" placeholder="输入通知 ID 查询">
+        <button onclick="getNotificationById()">查询通知 ID</button>
+    </div>
+    <div>
+        <input type="text" id="searchCreator" placeholder="输入创建者查询">
+        <button onclick="getNotificationsByCreator()">查询创建者</button>
+    </div>
+    <button type="button" onclick="window.history.back()">返回</button>
+    <div id="notificationDetail"></div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
