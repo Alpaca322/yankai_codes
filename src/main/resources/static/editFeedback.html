@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>编辑反馈</title>
+</head>
+<body>
+<meta http-equiv="Access-Control-Allow-Origin" content="*" />
+<h1>编辑反馈</h1>
+
+<form id="editFeedbackForm">
+    <label for="editFeedbackText">反馈内容:</label>
+    <textarea id="editFeedbackText" required></textarea>
+    <button type="submit">更新反馈</button>
+</form>
+
+<script>
+    const apiUrl = 'http://localhost:8080/api/feedback';
+    const urlParams = new URLSearchParams(window.location.search);
+    const feedbackId = urlParams.get('id');
+
+    async function loadFeedback() {
+        const response = await fetch(`${apiUrl}/${feedbackId}`);
+        const feedback = await response.json();
+        //response.setHeader("Access-Control-Allow-Origin", "http://www.domain1.com");
+        document.getElementById('editFeedbackText').value = feedback.feedbackText;
+    }
+
+    document.getElementById('editFeedbackForm').addEventListener('submit', async function (e) {
+        e.preventDefault();
+        const feedbackText = document.getElementById('editFeedbackText').value;
+
+        const response = await fetch(`${apiUrl}/${feedbackId}`, {
+            method: 'PUT',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({ feedbackText: feedbackText })
+        });
+        if (response.ok) {
+            alert('反馈更新成功！');
+            window.location.href = 'Feedback.html'; // 返回主页面
+        } else {
+            alert('更新反馈失败，请重试。');
+        }
+    });
+
+    // 加载当前反馈的内容
+    loadFeedback();
+</script>
+</body>
+</html>

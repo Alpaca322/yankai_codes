@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>用户反馈系统</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 20px;
+            background-color: #f7f7f7;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        form, .edit-form {
+            margin-bottom: 20px;
+        }
+        textarea {
+            width: 100%;
+            height: 100px;
+            margin-bottom: 10px;
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        input[type="number"] {
+            width: 100%;
+            margin-bottom: 10px;
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        button {
+            padding: 10px 15px;
+            font-size: 16px;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-right: 10px;
+        }
+        button:hover {
+            background-color: #218838;
+        }
+        .delete-button {
+            background-color: #dc3545;
+        }
+        .delete-button:hover {
+            background-color: #c82333;
+        }
+        .edit-button {
+            background-color: #007bff;
+        }
+        .edit-button:hover {
+            background-color: #0069d9;
+        }
+        .feedback-item {
+            margin: 10px 0;
+            padding: 10px;
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        .status-message {
+            margin-bottom: 20px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+<h1>用户反馈系统</h1>
+
+<div class="status-message" id="statusMessage"></div>
+
+<!-- 提交新反馈的表单 -->
+<form id="feedbackForm">
+    <label for="userId">用户ID（可选，默认匿名）：</label>
+    <input type="number" id="userId" value="0"> <!-- 默认值为0 -->
+    <textarea id="feedbackText" placeholder="请输入您的反馈" required></textarea>
+    <button type="submit">提交反馈</button>
+</form>
+
+<!-- 查询反馈的表单 -->
+<h2>查询反馈</h2>
+<input type="text" id="searchText" placeholder="输入查询关键词">
+<button id="searchButton">查询</button>
+
+<h2>反馈列表</h2>
+<ul id="feedbackList"></ul>
+
+<script>
+    const apiUrl = 'http://localhost:8080/api/feedback';
+
+    async function checkDatabaseConnection() {
+        try {
+            const response = await fetch(`${apiUrl}/health`);
+            if (response.ok) {
+                const message = await response.text();
+                document.getElementById('statusMessage').innerText = message;
+            } else {
+                document.getElementById('statusMessage').innerText = '无法连接到数据库。';
+            }
+        } catch (error) {
+            document.getElementById('statusMessage').innerText = '无法连接到数据库。';
+        }
+    }
+
+    document.getElementById('feedbackForm').addEventListener('submit', async function (e) {
+        e.preventDefault();
+        const feedbackText = document.getElementById('feedbackText').value;
+        const userId = document.getElementById('userId').value;
+
+        const response = await fetch(apiUrl, {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({ userId: userId, feedbackText: feedbackText })
+        });
+
+        if (response.ok) {
+            document.getElementById('feedbackText').value = '';
+            document.getElementById('userId').value = '0'; // 重置为默认值
+            loadFeedback();
+        } else {
+            alert('提交反馈失败，请重试。');
+        }
+    });
+
+    async function loadFeedback(searchQuery = '') {
+        const response = await fetch(apiUrl);
+        const feedbackList = await response.json();
+        console.log('Feedback List:', feedbackList); // 输出反馈列表，检查反馈 ID 是否有效
+        const feedbackListElement = document.getElementById('feedbackList');
+        feedbackListElement.innerHTML = '';
+
+        const filteredList = feedbackList.filter(fb => fb.feedbackText.includes(searchQuery));
+
+        filteredList.forEach(fb => {
+            const li = document.createElement('li');
+            li.className = 'feedback-item';
+            li.innerHTML = `
+                <strong>反馈内容:</strong> ${fb.feedbackText} <br>
+                <strong>用户ID:</strong> ${fb.userId} <br>
+                <strong>反馈ID:</strong> ${fb.feedbackid} <br>
+                <strong>提交时间:</strong> ${new Date(fb.createTime).toLocaleString()}
+                <button class="edit-button" onclick="editFeedback(${fb.feedbackid})">编辑</button>
+                <button class="delete-button" onclick="deleteFeedback(${fb.feedbackid}); console.log('Delete button clicked for ID:', ${fb.feedbackId});">删除</button>
+            `;
+            feedbackListElement.appendChild(li);
+        });
+    }
+
+    async function deleteFeedback(id) {
+        console.log('Attempting to delete feedback ID:', id); // 调试信息
+        if (id === undefined || id === null) {
+            alert('反馈 ID 无效');
+            return;
+        }
+
+        const response = await fetch(`${apiUrl}/${id}`, {
+            method: 'DELETE',
+        });
+
+        if (response.ok) {
+            loadFeedback(); // 刷新反馈列表
+        } else {
+            alert('删除反馈失败，请重试。');
+        }
+    }
+
+    function editFeedback(id) {
+        // 重定向到编辑页面
+        window.location.href = `editFeedback.html?id=${id}`; // 传递反馈ID以便在编辑页面加载对应的反馈
+    }
+
+    document.getElementById('searchButton').addEventListener('click', function() {
+        const searchText = document.getElementById('searchText').value;
+        loadFeedback(searchText);
+    });
+
+    // 检查数据库连接状态
+    checkDatabaseConnection();
+    loadFeedback(); // 初始加载所有反馈
+</script>
+</body>
+</html>

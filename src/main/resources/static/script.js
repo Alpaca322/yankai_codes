@@ -35,7 +35,7 @@ function fetchNotifications() {
         })
         .catch(error => {
             console.error('获取通知失败:', error);
-    });
+        });
 }
 
 function createNotification(e) {
@@ -63,13 +63,24 @@ function createNotification(e) {
 }
 
 function deleteNotification(id) {
-    fetch(`${apiUrl}/${id}`, {
-        method: 'DELETE',
-    }).then(() => {
-        fetchNotifications();
-    }).catch(error => {
-        console.error('删除通知失败:', error);
-    });
+    if (confirm("确认删除该通知吗？")) {
+        fetch(`${apiUrl}/${id}`, {
+            method: 'DELETE',
+        })
+            .then(response => {
+                if (response.ok) {
+                    // 删除成功后，重新获取通知列表
+                    fetchNotifications();
+                } else {
+                    console.error('删除通知失败:', response.statusText);
+                    alert('删除通知失败，请重试。');
+                }
+            })
+            .catch(error => {
+                console.error('发生错误:', error);
+                alert('删除通知时发生错误，请重试。');
+            });
+    }
 }
 
 function fetchNotification(id) {
@@ -82,6 +93,13 @@ function fetchNotification(id) {
             document.getElementById('creator').value = notification.creator;
             document.getElementById('createTime').value = notification.createTime.split('T')[0] + 'T' + notification.createTime.split('T')[1];
             document.getElementById('endTime').value = notification.endTime.split('T')[0] + 'T' + notification.endTime.split('T')[1];
+            const createTime = new Date(notification.createTime);
+            const endTime = new Date(notification.endTime);
+            document.getElementById('createTime').value = createTime.toISOString().slice(0, 16); // YYYY-MM-DDTHH:MM
+            document.getElementById('endTime').value = endTime.toISOString().slice(0, 16);     // YYYY-MM-DDTHH:MM
+        })
+        .catch(error => {
+            console.error('获取通知失败:', error);
         });
 }
 
