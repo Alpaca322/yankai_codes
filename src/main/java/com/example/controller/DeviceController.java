@@ -21,7 +21,7 @@ public class DeviceController {
     }
 
     @DeleteMapping("/{id}")
-    public Result deleteDevice(Long id){
+    public Result deleteDevice(@PathVariable Long id){
         return deviceService.deleteDevice(id);
     }
 

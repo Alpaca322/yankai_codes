@@ -7,6 +7,7 @@ import com.example.utils.Result;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.time.LocalDateTime;
 import java.util.List;
 
 @Service
@@ -35,6 +36,7 @@ public class DeviceServiceImpl implements DeviceService {
 
     @Override
     public Result addDevice(Devices device) {
+        device.setLastMaintenance(LocalDateTime.now());
         deviceMapper.addDevice(device);
         return Result.success();
     }

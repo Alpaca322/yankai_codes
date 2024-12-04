@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.mapper.FeedbackMapper">
+    <resultMap id="BaseResultMap" type="com.example.entity.Feedback">
+        <id column="feedbackid" property="feedbackid" />
+        <result column="userid" property="userid" />
+        <result column="status" property="status" />
+        <result column="create_time" property="create_time" />
+        <result column="update_time" property="update_time" />
+        <result column="feedback_text" property="feedback_text"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        feedbackid, userid, status,feedback_text, create_time, update_time
+    </sql>
+
+    <select id="selectAll" resultMap="BaseResultMap">
+        SELECT <include refid="Base_Column_List" />
+        FROM feedback
+        ORDER BY create_time DESC
+    </select>
+
+    <select id="selectByStatus" resultMap="BaseResultMap">
+        SELECT <include refid="Base_Column_List" />
+        FROM feedback
+        WHERE status = #{status}
+        ORDER BY create_time DESC
+    </select>
+
+    <select id="selectById" resultMap="BaseResultMap">
+        SELECT <include refid="Base_Column_List" />
+        FROM feedback
+        WHERE feedbackid = #{feedbackid}
+    </select>
+
+    <update id="updateStatus">
+        UPDATE feedback
+        SET status = #{status},
+            update_time = CURDATE()
+        WHERE feedbackid = #{feedbackid}
+    </update>
+
+    <delete id="deleteById">
+        DELETE FROM feedback
+        WHERE feedbackid = #{feedbackid}
+    </delete>
+
+    <insert id="insert" parameterType="com.example.entity.Feedback">
+        INSERT INTO feedback (userid, status, create_time, update_time)
+        VALUES (#{userid}, #{status}, CURDATE(), CURDATE())
+    </insert>
+</mapper>
