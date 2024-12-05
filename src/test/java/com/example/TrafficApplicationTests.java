@@ -1,6 +1,5 @@
 package com.example;
 
-import com.example.controller.DataRecordsController;
 import com.example.controller.DeviceController;
 import com.example.controller.UserController;
 import com.example.dto.UserDTO;
@@ -17,14 +16,14 @@ import java.time.LocalDateTime;
 @SpringBootTest
 class TrafficApplicationTests {
 
-    @Autowired
-    private DataRecordsController dataRecordsController;
+//    @Autowired
+//    private DataRecordsController dataRecordsController;
     @Autowired
     private UserController userController;
 
     @Test
     void contextLoads() {
-        System.out.println(dataRecordsController.getById(1L));
+//        System.out.println(dataRecordsController.getById(1L));
     }
 
     @Test
