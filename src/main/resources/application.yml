@@ -19,3 +19,7 @@ mybatis:
     type-aliases-package: com.example.entity
 server:
   port: 8082
+
+video:
+  upload:
+    path: /upload/video/

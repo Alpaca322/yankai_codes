@@ -38,6 +38,8 @@
             <if test="notificationtype != null">
                 notificationtype = #{notificationtype},
             </if>
+
+
             <if test="content != null">
                 content = #{content},
             </if>
