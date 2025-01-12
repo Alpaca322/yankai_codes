@@ -41,6 +41,12 @@ public class TrafficViolationServiceImpl implements TrafficViolationService {
             throw new BaseException("违法类型不能为空");
         }
 
+        if (violation.getViolationDate() == null){
+            violation.setViolationDate(LocalDateTime.now());
+        }
+        if (violation.getStatus() == null || violation.getStatus().isEmpty()) {
+            violation.setStatus("Pending");
+        }
 //        violation.setViolationDate(LocalDateTime.now());
 //        violation.setStatus("Pending");
         violationMapper.addViolation(violation);

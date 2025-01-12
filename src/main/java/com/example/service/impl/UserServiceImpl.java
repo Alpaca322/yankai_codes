@@ -27,7 +27,12 @@ public class UserServiceImpl implements UserService {
         String password = userMapper.getPassword(userDTO.getUsername());
 
         if (password.equals(userDTO.getPassword())) {
-            return Result.success("登录成功");
+            Users user = userMapper.getUserByUsername(userDTO.getUsername());
+            if (user.getStatus().equals("Inactive")){
+                return Result.error("用户已被禁用");
+            }
+            user.setPassword("****");
+            return Result.success(user);
         } else {
             return Result.error("用户名或密码错误");
         }
