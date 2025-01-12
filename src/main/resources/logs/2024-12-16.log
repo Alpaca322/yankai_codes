@@ -1,0 +1,35 @@
+2024-12-16 00:02:06.653 [main] INFO  com.example.TrafficApplication - Starting TrafficApplication using Java 23 on LAPTOP-QL7EKIO9 with PID 12000 (D:\JAVA\CODE\Traffic\target\classes started by yolo in D:\JAVA\CODE\Traffic)
+2024-12-16 00:02:06.653 [main] INFO  com.example.TrafficApplication - The following 1 profile is active: "dev"
+2024-12-16 00:02:07.614 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-12-16 00:02:07.614 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-12-16 00:02:07.739 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-12-16 00:02:07.833 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2024-12-16 00:02:07.927 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2024-12-16 00:02:08.474 [main] INFO  com.example.TrafficApplication - Started TrafficApplication in 2.193 seconds (JVM running for 2.633)
+2024-12-16 00:02:48.480 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2024-12-16 00:02:48.481 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2024-12-16 00:02:52.182 [main] INFO  com.example.TrafficApplication - Starting TrafficApplication using Java 23 on LAPTOP-QL7EKIO9 with PID 8608 (D:\JAVA\CODE\Traffic\target\classes started by yolo in D:\JAVA\CODE\Traffic)
+2024-12-16 00:02:52.182 [main] INFO  com.example.TrafficApplication - The following 1 profile is active: "dev"
+2024-12-16 00:02:53.140 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-12-16 00:02:53.140 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-12-16 00:02:53.203 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-12-16 00:02:53.281 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2024-12-16 00:02:53.359 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2024-12-16 00:02:54.080 [main] INFO  com.example.TrafficApplication - Started TrafficApplication in 2.264 seconds (JVM running for 2.706)
+2024-12-16 00:03:00.022 [http-nio-8082-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-16 00:36:02.517 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2024-12-16 00:36:02.528 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2024-12-16 00:36:07.804 [main] INFO  com.example.TrafficApplication - Starting TrafficApplication using Java 23 on LAPTOP-QL7EKIO9 with PID 5732 (D:\JAVA\CODE\Traffic\target\classes started by yolo in D:\JAVA\CODE\Traffic)
+2024-12-16 00:36:07.804 [main] INFO  com.example.TrafficApplication - The following 1 profile is active: "dev"
+2024-12-16 00:36:08.738 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-12-16 00:36:08.738 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-12-16 00:36:08.849 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-12-16 00:36:08.978 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2024-12-16 00:36:09.087 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2024-12-16 00:36:09.843 [main] INFO  com.example.TrafficApplication - Started TrafficApplication in 2.477 seconds (JVM running for 2.981)
+2024-12-16 00:36:34.123 [http-nio-8082-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-16 00:57:10.062 [http-nio-8082-exec-7] WARN  o.s.w.s.m.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2024-12-16 00:57:12.180 [http-nio-8082-exec-8] WARN  o.s.w.s.m.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2024-12-16 00:57:13.954 [http-nio-8082-exec-9] WARN  o.s.w.s.m.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2024-12-16 01:04:12.723 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2024-12-16 01:04:12.728 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed

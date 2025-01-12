@@ -1,0 +1,11 @@
+2025-01-08 22:34:21.743 [main] INFO  com.example.TrafficApplication - Starting TrafficApplication using Java 23 on LAPTOP-QL7EKIO9 with PID 23516 (D:\JAVA\CODE\Traffic\target\classes started by yolo in D:\JAVA\CODE\Traffic)
+2025-01-08 22:34:21.745 [main] INFO  com.example.TrafficApplication - The following 1 profile is active: "dev"
+2025-01-08 22:34:23.245 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-01-08 22:34:23.247 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2025-01-08 22:34:23.462 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-01-08 22:34:23.593 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2025-01-08 22:34:23.882 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2025-01-08 22:34:24.838 [main] INFO  com.example.TrafficApplication - Started TrafficApplication in 3.874 seconds (JVM running for 4.879)
+2025-01-08 22:35:03.908 [http-nio-8082-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-08 23:29:43.237 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2025-01-08 23:29:43.237 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
