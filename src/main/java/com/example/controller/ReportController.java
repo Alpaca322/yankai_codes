@@ -1,12 +1,15 @@
 package com.example.controller;
 
+import com.example.dto.TrafficFlowDTO;
 import com.example.entity.TrafficViolation;
 import com.example.mapper.FeedbackMapper;
+import com.example.mapper.TrafficFlowMapper;
 import com.example.mapper.TrafficViolationMapper;
 import com.example.utils.Result;
 import com.example.entity.Report;
 import com.example.service.ReportService;
 import io.github.classgraph.Resource;
+import io.swagger.annotations.Api;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
@@ -31,6 +34,7 @@ import java.util.List;
 @RestController
 @Slf4j
 @RequestMapping("/report")
+@Api(tags = "报告模块")
 public class ReportController {
 
     @Autowired
@@ -39,6 +43,8 @@ public class ReportController {
     private TrafficViolationMapper trafficViolationMapper;
     @Autowired
     private FeedbackMapper feedbackMapper;
+    @Autowired
+    private TrafficFlowMapper trafficFlowMapper;
 
     @GetMapping("/list")
     public List<Report> getAllReports() {
@@ -102,6 +108,11 @@ public class ReportController {
                     sheet.getRow(1).getCell(1).setCellValue("时间: " + begin.toString() + " - " + end.toString());
                 }
 
+
+                TrafficFlowDTO trafficFlowDTO = TrafficFlowDTO
+                        .builder().startTime(begin).endTime(end).build();
+
+                trafficFlow = trafficFlowMapper.getFlow(trafficFlowDTO);
 
                 List<TrafficViolation> lists = trafficViolationMapper.getbeginend(begin.plusDays(-1),end.plusDays(1));
                 violationCount = lists.size();
