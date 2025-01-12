@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.mapper.WeatherMapper">
+
+    <select id="selectList" resultType="com.example.entity.Weather">
+        SELECT * FROM weather
+        <where>
+            <if test="param.city != null and param.city != ''">
+                AND city LIKE CONCAT('%', #{param.city}, '%')
+            </if>
+        </where>
+        ORDER BY create_time DESC
+    </select>
+
+    <insert id="insert" parameterType="com.example.dto.WeatherDTO">
+        INSERT INTO weather (
+            city, temperature, humidity, wind, creator, create_time
+        ) VALUES (
+                     #{city}, #{temperature}, #{humidity}, #{wind}, #{creator}, #{createTime}
+                 )
+    </insert>
+
+    <update id="updateById" parameterType="com.example.dto.WeatherDTO">
+        UPDATE weather SET
+                           city = #{city},
+                           temperature = #{temperature},
+                           humidity = #{humidity},
+                           wind = #{wind}
+        WHERE id = #{id}
+    </update>
+
+    <delete id="deleteById">
+        DELETE FROM weather WHERE id = #{id}
+    </delete>
+
+</mapper>

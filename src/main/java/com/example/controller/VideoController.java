@@ -14,7 +14,7 @@ import javax.servlet.http.HttpServletResponse;
 
 @RestController
 @RequestMapping("/video")
-@Api(value = "视频模块")
+@Api(tags = "视频模块")
 public class VideoController {
 
     @Autowired

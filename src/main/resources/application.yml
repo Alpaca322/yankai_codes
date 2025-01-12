@@ -26,3 +26,5 @@ server:
 video:
   upload:
     path: /upload/video/
+gaode:
+  key: 2b441d2b5f53743986af898d57873875

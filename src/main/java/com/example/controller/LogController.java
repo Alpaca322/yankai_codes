@@ -16,7 +16,7 @@ import javax.servlet.http.HttpServletResponse;
 @RestController
 @Slf4j
 @RequestMapping("/log")
-@Api("日志模块")
+@Api(tags = "日志模块")
 public class LogController {
 
     @Autowired
