@@ -9,6 +9,9 @@ spring:
       url: jdbc:mysql://${traffic.datasource.host}:${traffic.datasource.port}/${traffic.datasource.database}?serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&useSSL=false&allowPublicKeyRetrieval=true
       username: ${traffic.datasource.username}
       password: ${traffic.datasource.password}
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
 
 logging:
   config: classpath:logback-spring.xml # 日志配置文件
