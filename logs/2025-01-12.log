@@ -1,0 +1,577 @@
+2025-01-12 11:15:40.653 [main] INFO  com.example.TrafficApplication - Starting TrafficApplication using Java 23 on LAPTOP-QL7EKIO9 with PID 24772 (D:\JAVA\CODE\Traffic\target\classes started by yolo in D:\JAVA\CODE\Traffic)
+2025-01-12 11:15:40.656 [main] INFO  com.example.TrafficApplication - The following 1 profile is active: "dev"
+2025-01-12 11:15:41.827 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-01-12 11:15:41.828 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2025-01-12 11:15:41.931 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-01-12 11:15:42.012 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2025-01-12 11:15:42.131 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2025-01-12 11:15:42.753 [main] INFO  com.example.TrafficApplication - Started TrafficApplication in 2.616 seconds (JVM running for 3.348)
+2025-01-12 11:23:25.222 [http-nio-8082-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-12 11:42:07.060 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2025-01-12 11:42:07.066 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2025-01-12 11:42:14.722 [main] INFO  com.example.TrafficApplication - Starting TrafficApplication using Java 23 on LAPTOP-QL7EKIO9 with PID 20224 (D:\JAVA\CODE\Traffic\target\classes started by yolo in D:\JAVA\CODE\Traffic)
+2025-01-12 11:42:14.724 [main] INFO  com.example.TrafficApplication - The following 1 profile is active: "dev"
+2025-01-12 11:42:15.982 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-01-12 11:42:15.982 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2025-01-12 11:42:16.091 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-01-12 11:42:16.172 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2025-01-12 11:42:16.286 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2025-01-12 11:42:17.395 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'documentationPluginsBootstrapper'; nested exception is java.lang.NullPointerException: Cannot invoke "org.springframework.web.servlet.mvc.condition.PatternsRequestCondition.getPatterns()" because "this.condition" is null
+2025-01-12 11:42:17.398 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2025-01-12 11:42:17.399 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2025-01-12 11:42:17.404 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2025-01-12 11:42:17.436 [main] ERROR org.springframework.boot.SpringApplication - Application run failed
+org.springframework.context.ApplicationContextException: Failed to start bean 'documentationPluginsBootstrapper'; nested exception is java.lang.NullPointerException: Cannot invoke "org.springframework.web.servlet.mvc.condition.PatternsRequestCondition.getPatterns()" because "this.condition" is null
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:181)
+	at org.springframework.context.support.DefaultLifecycleProcessor.access$200(DefaultLifecycleProcessor.java:54)
+	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:356)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:155)
+	at org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:123)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:935)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:586)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:745)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:420)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1317)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at com.example.TrafficApplication.main(TrafficApplication.java:17)
+Caused by: java.lang.NullPointerException: Cannot invoke "org.springframework.web.servlet.mvc.condition.PatternsRequestCondition.getPatterns()" because "this.condition" is null
+	at springfox.documentation.spring.web.WebMvcPatternsRequestConditionWrapper.getPatterns(WebMvcPatternsRequestConditionWrapper.java:56)
+	at springfox.documentation.RequestHandler.sortedPaths(RequestHandler.java:113)
+	at springfox.documentation.spi.service.contexts.Orderings.lambda$byPatternsCondition$3(Orderings.java:89)
+	at java.base/java.util.Comparator.lambda$comparing$77a9974f$1(Comparator.java:473)
+	at java.base/java.util.TimSort.countRunAndMakeAscending(TimSort.java:355)
+	at java.base/java.util.TimSort.sort(TimSort.java:234)
+	at java.base/java.util.Arrays.sort(Arrays.java:1307)
+	at java.base/java.util.ArrayList.sort(ArrayList.java:1805)
+	at java.base/java.util.stream.SortedOps$RefSortingSink.end(SortedOps.java:392)
+	at java.base/java.util.stream.Sink$ChainedReference.end(Sink.java:261)
+	at java.base/java.util.stream.ReferencePipeline$7$1FlatMap.end(ReferencePipeline.java:285)
+	at java.base/java.util.stream.Sink$ChainedReference.end(Sink.java:261)
+	at java.base/java.util.stream.Sink$ChainedReference.end(Sink.java:261)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:571)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:727)
+	at springfox.documentation.spring.web.plugins.WebMvcRequestHandlerProvider.requestHandlers(WebMvcRequestHandlerProvider.java:81)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:215)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1709)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:570)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:727)
+	at springfox.documentation.spring.web.plugins.AbstractDocumentationPluginsBootstrapper.withDefaults(AbstractDocumentationPluginsBootstrapper.java:107)
+	at springfox.documentation.spring.web.plugins.AbstractDocumentationPluginsBootstrapper.buildContext(AbstractDocumentationPluginsBootstrapper.java:91)
+	at springfox.documentation.spring.web.plugins.AbstractDocumentationPluginsBootstrapper.bootstrapDocumentationPlugins(AbstractDocumentationPluginsBootstrapper.java:82)
+	at springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:100)
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:178)
+	... 14 common frames omitted
+2025-01-12 11:59:56.408 [main] INFO  com.example.TrafficApplication - Starting TrafficApplication using Java 23 on LAPTOP-QL7EKIO9 with PID 9024 (D:\JAVA\CODE\Traffic\target\classes started by yolo in D:\JAVA\CODE\Traffic)
+2025-01-12 11:59:56.411 [main] INFO  com.example.TrafficApplication - The following 1 profile is active: "dev"
+2025-01-12 11:59:57.731 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-01-12 11:59:57.732 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2025-01-12 11:59:57.834 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-01-12 11:59:57.914 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2025-01-12 11:59:58.021 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2025-01-12 11:59:58.860 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'documentationPluginsBootstrapper'; nested exception is java.lang.NullPointerException: Cannot invoke "org.springframework.web.servlet.mvc.condition.PatternsRequestCondition.getPatterns()" because "this.condition" is null
+2025-01-12 11:59:58.863 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2025-01-12 11:59:58.863 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2025-01-12 11:59:58.868 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2025-01-12 11:59:58.906 [main] ERROR org.springframework.boot.SpringApplication - Application run failed
+org.springframework.context.ApplicationContextException: Failed to start bean 'documentationPluginsBootstrapper'; nested exception is java.lang.NullPointerException: Cannot invoke "org.springframework.web.servlet.mvc.condition.PatternsRequestCondition.getPatterns()" because "this.condition" is null
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:181)
+	at org.springframework.context.support.DefaultLifecycleProcessor.access$200(DefaultLifecycleProcessor.java:54)
+	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:356)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:155)
+	at org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:123)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:935)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:586)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:745)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:420)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1317)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at com.example.TrafficApplication.main(TrafficApplication.java:17)
+Caused by: java.lang.NullPointerException: Cannot invoke "org.springframework.web.servlet.mvc.condition.PatternsRequestCondition.getPatterns()" because "this.condition" is null
+	at springfox.documentation.spring.web.WebMvcPatternsRequestConditionWrapper.getPatterns(WebMvcPatternsRequestConditionWrapper.java:56)
+	at springfox.documentation.RequestHandler.sortedPaths(RequestHandler.java:113)
+	at springfox.documentation.spi.service.contexts.Orderings.lambda$byPatternsCondition$3(Orderings.java:89)
+	at java.base/java.util.Comparator.lambda$comparing$77a9974f$1(Comparator.java:473)
+	at java.base/java.util.TimSort.countRunAndMakeAscending(TimSort.java:355)
+	at java.base/java.util.TimSort.sort(TimSort.java:234)
+	at java.base/java.util.Arrays.sort(Arrays.java:1307)
+	at java.base/java.util.ArrayList.sort(ArrayList.java:1805)
+	at java.base/java.util.stream.SortedOps$RefSortingSink.end(SortedOps.java:392)
+	at java.base/java.util.stream.Sink$ChainedReference.end(Sink.java:261)
+	at java.base/java.util.stream.ReferencePipeline$7$1FlatMap.end(ReferencePipeline.java:285)
+	at java.base/java.util.stream.Sink$ChainedReference.end(Sink.java:261)
+	at java.base/java.util.stream.Sink$ChainedReference.end(Sink.java:261)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:571)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:727)
+	at springfox.documentation.spring.web.plugins.WebMvcRequestHandlerProvider.requestHandlers(WebMvcRequestHandlerProvider.java:81)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:215)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1709)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:570)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:727)
+	at springfox.documentation.spring.web.plugins.AbstractDocumentationPluginsBootstrapper.withDefaults(AbstractDocumentationPluginsBootstrapper.java:107)
+	at springfox.documentation.spring.web.plugins.AbstractDocumentationPluginsBootstrapper.buildContext(AbstractDocumentationPluginsBootstrapper.java:91)
+	at springfox.documentation.spring.web.plugins.AbstractDocumentationPluginsBootstrapper.bootstrapDocumentationPlugins(AbstractDocumentationPluginsBootstrapper.java:82)
+	at springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:100)
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:178)
+	... 14 common frames omitted
+2025-01-12 12:02:10.972 [main] INFO  com.example.TrafficApplication - Starting TrafficApplication using Java 23 on LAPTOP-QL7EKIO9 with PID 22800 (D:\JAVA\CODE\Traffic\target\classes started by yolo in D:\JAVA\CODE\Traffic)
+2025-01-12 12:02:10.976 [main] INFO  com.example.TrafficApplication - The following 1 profile is active: "dev"
+2025-01-12 12:02:12.524 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-01-12 12:02:12.524 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2025-01-12 12:02:12.645 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-01-12 12:02:12.748 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2025-01-12 12:02:12.896 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2025-01-12 12:02:13.978 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'documentationPluginsBootstrapper'; nested exception is java.lang.NullPointerException: Cannot invoke "org.springframework.web.servlet.mvc.condition.PatternsRequestCondition.getPatterns()" because "this.condition" is null
+2025-01-12 12:02:13.981 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2025-01-12 12:02:13.982 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2025-01-12 12:02:13.987 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2025-01-12 12:02:14.022 [main] ERROR org.springframework.boot.SpringApplication - Application run failed
+org.springframework.context.ApplicationContextException: Failed to start bean 'documentationPluginsBootstrapper'; nested exception is java.lang.NullPointerException: Cannot invoke "org.springframework.web.servlet.mvc.condition.PatternsRequestCondition.getPatterns()" because "this.condition" is null
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:181)
+	at org.springframework.context.support.DefaultLifecycleProcessor.access$200(DefaultLifecycleProcessor.java:54)
+	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:356)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:155)
+	at org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:123)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:935)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:586)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:745)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:420)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1317)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at com.example.TrafficApplication.main(TrafficApplication.java:17)
+Caused by: java.lang.NullPointerException: Cannot invoke "org.springframework.web.servlet.mvc.condition.PatternsRequestCondition.getPatterns()" because "this.condition" is null
+	at springfox.documentation.spring.web.WebMvcPatternsRequestConditionWrapper.getPatterns(WebMvcPatternsRequestConditionWrapper.java:56)
+	at springfox.documentation.RequestHandler.sortedPaths(RequestHandler.java:113)
+	at springfox.documentation.spi.service.contexts.Orderings.lambda$byPatternsCondition$3(Orderings.java:89)
+	at java.base/java.util.Comparator.lambda$comparing$77a9974f$1(Comparator.java:473)
+	at java.base/java.util.TimSort.countRunAndMakeAscending(TimSort.java:355)
+	at java.base/java.util.TimSort.sort(TimSort.java:234)
+	at java.base/java.util.Arrays.sort(Arrays.java:1307)
+	at java.base/java.util.ArrayList.sort(ArrayList.java:1805)
+	at java.base/java.util.stream.SortedOps$RefSortingSink.end(SortedOps.java:392)
+	at java.base/java.util.stream.Sink$ChainedReference.end(Sink.java:261)
+	at java.base/java.util.stream.ReferencePipeline$7$1FlatMap.end(ReferencePipeline.java:285)
+	at java.base/java.util.stream.Sink$ChainedReference.end(Sink.java:261)
+	at java.base/java.util.stream.Sink$ChainedReference.end(Sink.java:261)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:571)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:727)
+	at springfox.documentation.spring.web.plugins.WebMvcRequestHandlerProvider.requestHandlers(WebMvcRequestHandlerProvider.java:81)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:215)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1709)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:570)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:727)
+	at springfox.documentation.spring.web.plugins.AbstractDocumentationPluginsBootstrapper.withDefaults(AbstractDocumentationPluginsBootstrapper.java:107)
+	at springfox.documentation.spring.web.plugins.AbstractDocumentationPluginsBootstrapper.buildContext(AbstractDocumentationPluginsBootstrapper.java:91)
+	at springfox.documentation.spring.web.plugins.AbstractDocumentationPluginsBootstrapper.bootstrapDocumentationPlugins(AbstractDocumentationPluginsBootstrapper.java:82)
+	at springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:100)
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:178)
+	... 14 common frames omitted
+2025-01-12 12:03:03.406 [main] INFO  com.example.TrafficApplication - Starting TrafficApplication using Java 23 on LAPTOP-QL7EKIO9 with PID 14536 (D:\JAVA\CODE\Traffic\target\classes started by yolo in D:\JAVA\CODE\Traffic)
+2025-01-12 12:03:03.408 [main] INFO  com.example.TrafficApplication - The following 1 profile is active: "dev"
+2025-01-12 12:03:04.749 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-01-12 12:03:04.750 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2025-01-12 12:03:04.858 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-01-12 12:03:04.937 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2025-01-12 12:03:05.040 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2025-01-12 12:03:05.979 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'documentationPluginsBootstrapper'; nested exception is java.lang.NullPointerException: Cannot invoke "org.springframework.web.servlet.mvc.condition.PatternsRequestCondition.getPatterns()" because "this.condition" is null
+2025-01-12 12:03:05.982 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2025-01-12 12:03:05.983 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2025-01-12 12:03:05.988 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2025-01-12 12:03:06.021 [main] ERROR org.springframework.boot.SpringApplication - Application run failed
+org.springframework.context.ApplicationContextException: Failed to start bean 'documentationPluginsBootstrapper'; nested exception is java.lang.NullPointerException: Cannot invoke "org.springframework.web.servlet.mvc.condition.PatternsRequestCondition.getPatterns()" because "this.condition" is null
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:181)
+	at org.springframework.context.support.DefaultLifecycleProcessor.access$200(DefaultLifecycleProcessor.java:54)
+	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:356)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:155)
+	at org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:123)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:935)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:586)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:745)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:420)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1317)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at com.example.TrafficApplication.main(TrafficApplication.java:17)
+Caused by: java.lang.NullPointerException: Cannot invoke "org.springframework.web.servlet.mvc.condition.PatternsRequestCondition.getPatterns()" because "this.condition" is null
+	at springfox.documentation.spring.web.WebMvcPatternsRequestConditionWrapper.getPatterns(WebMvcPatternsRequestConditionWrapper.java:56)
+	at springfox.documentation.RequestHandler.sortedPaths(RequestHandler.java:113)
+	at springfox.documentation.spi.service.contexts.Orderings.lambda$byPatternsCondition$3(Orderings.java:89)
+	at java.base/java.util.Comparator.lambda$comparing$77a9974f$1(Comparator.java:473)
+	at java.base/java.util.TimSort.countRunAndMakeAscending(TimSort.java:355)
+	at java.base/java.util.TimSort.sort(TimSort.java:234)
+	at java.base/java.util.Arrays.sort(Arrays.java:1307)
+	at java.base/java.util.ArrayList.sort(ArrayList.java:1805)
+	at java.base/java.util.stream.SortedOps$RefSortingSink.end(SortedOps.java:392)
+	at java.base/java.util.stream.Sink$ChainedReference.end(Sink.java:261)
+	at java.base/java.util.stream.ReferencePipeline$7$1FlatMap.end(ReferencePipeline.java:285)
+	at java.base/java.util.stream.Sink$ChainedReference.end(Sink.java:261)
+	at java.base/java.util.stream.Sink$ChainedReference.end(Sink.java:261)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:571)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:727)
+	at springfox.documentation.spring.web.plugins.WebMvcRequestHandlerProvider.requestHandlers(WebMvcRequestHandlerProvider.java:81)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:215)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1709)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:570)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:727)
+	at springfox.documentation.spring.web.plugins.AbstractDocumentationPluginsBootstrapper.withDefaults(AbstractDocumentationPluginsBootstrapper.java:107)
+	at springfox.documentation.spring.web.plugins.AbstractDocumentationPluginsBootstrapper.buildContext(AbstractDocumentationPluginsBootstrapper.java:91)
+	at springfox.documentation.spring.web.plugins.AbstractDocumentationPluginsBootstrapper.bootstrapDocumentationPlugins(AbstractDocumentationPluginsBootstrapper.java:82)
+	at springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:100)
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:178)
+	... 14 common frames omitted
+2025-01-12 12:04:52.253 [main] INFO  com.example.TrafficApplication - Starting TrafficApplication using Java 23 on LAPTOP-QL7EKIO9 with PID 22848 (D:\JAVA\CODE\Traffic\target\classes started by yolo in D:\JAVA\CODE\Traffic)
+2025-01-12 12:04:52.256 [main] INFO  com.example.TrafficApplication - The following 1 profile is active: "dev"
+2025-01-12 12:04:53.735 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-01-12 12:04:53.736 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2025-01-12 12:04:53.909 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-01-12 12:04:53.990 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2025-01-12 12:04:54.087 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2025-01-12 12:04:55.145 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'documentationPluginsBootstrapper'; nested exception is java.lang.NullPointerException: Cannot invoke "org.springframework.web.servlet.mvc.condition.PatternsRequestCondition.getPatterns()" because "this.condition" is null
+2025-01-12 12:04:55.150 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2025-01-12 12:04:55.151 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2025-01-12 12:04:55.160 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2025-01-12 12:04:55.199 [main] ERROR org.springframework.boot.SpringApplication - Application run failed
+org.springframework.context.ApplicationContextException: Failed to start bean 'documentationPluginsBootstrapper'; nested exception is java.lang.NullPointerException: Cannot invoke "org.springframework.web.servlet.mvc.condition.PatternsRequestCondition.getPatterns()" because "this.condition" is null
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:181)
+	at org.springframework.context.support.DefaultLifecycleProcessor.access$200(DefaultLifecycleProcessor.java:54)
+	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:356)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:155)
+	at org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:123)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:935)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:586)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:745)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:420)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1317)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at com.example.TrafficApplication.main(TrafficApplication.java:17)
+Caused by: java.lang.NullPointerException: Cannot invoke "org.springframework.web.servlet.mvc.condition.PatternsRequestCondition.getPatterns()" because "this.condition" is null
+	at springfox.documentation.spring.web.WebMvcPatternsRequestConditionWrapper.getPatterns(WebMvcPatternsRequestConditionWrapper.java:56)
+	at springfox.documentation.RequestHandler.sortedPaths(RequestHandler.java:113)
+	at springfox.documentation.spi.service.contexts.Orderings.lambda$byPatternsCondition$3(Orderings.java:89)
+	at java.base/java.util.Comparator.lambda$comparing$77a9974f$1(Comparator.java:473)
+	at java.base/java.util.TimSort.countRunAndMakeAscending(TimSort.java:355)
+	at java.base/java.util.TimSort.sort(TimSort.java:234)
+	at java.base/java.util.Arrays.sort(Arrays.java:1307)
+	at java.base/java.util.ArrayList.sort(ArrayList.java:1805)
+	at java.base/java.util.stream.SortedOps$RefSortingSink.end(SortedOps.java:392)
+	at java.base/java.util.stream.Sink$ChainedReference.end(Sink.java:261)
+	at java.base/java.util.stream.ReferencePipeline$7$1FlatMap.end(ReferencePipeline.java:285)
+	at java.base/java.util.stream.Sink$ChainedReference.end(Sink.java:261)
+	at java.base/java.util.stream.Sink$ChainedReference.end(Sink.java:261)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:571)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:727)
+	at springfox.documentation.spring.web.plugins.WebMvcRequestHandlerProvider.requestHandlers(WebMvcRequestHandlerProvider.java:81)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:215)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1709)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:570)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:727)
+	at springfox.documentation.spring.web.plugins.AbstractDocumentationPluginsBootstrapper.withDefaults(AbstractDocumentationPluginsBootstrapper.java:107)
+	at springfox.documentation.spring.web.plugins.AbstractDocumentationPluginsBootstrapper.buildContext(AbstractDocumentationPluginsBootstrapper.java:91)
+	at springfox.documentation.spring.web.plugins.AbstractDocumentationPluginsBootstrapper.bootstrapDocumentationPlugins(AbstractDocumentationPluginsBootstrapper.java:82)
+	at springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:100)
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:178)
+	... 14 common frames omitted
+2025-01-12 12:08:27.253 [main] INFO  com.example.TrafficApplication - Starting TrafficApplication using Java 23 on LAPTOP-QL7EKIO9 with PID 8180 (D:\JAVA\CODE\Traffic\target\classes started by yolo in D:\JAVA\CODE\Traffic)
+2025-01-12 12:08:27.256 [main] INFO  com.example.TrafficApplication - The following 1 profile is active: "dev"
+2025-01-12 12:08:28.610 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-01-12 12:08:28.611 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2025-01-12 12:08:28.731 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-01-12 12:08:28.828 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2025-01-12 12:08:28.930 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2025-01-12 12:08:29.866 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'documentationPluginsBootstrapper'; nested exception is java.lang.NullPointerException: Cannot invoke "org.springframework.web.servlet.mvc.condition.PatternsRequestCondition.getPatterns()" because "this.condition" is null
+2025-01-12 12:08:29.870 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2025-01-12 12:08:29.871 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2025-01-12 12:08:29.879 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2025-01-12 12:08:29.915 [main] ERROR org.springframework.boot.SpringApplication - Application run failed
+org.springframework.context.ApplicationContextException: Failed to start bean 'documentationPluginsBootstrapper'; nested exception is java.lang.NullPointerException: Cannot invoke "org.springframework.web.servlet.mvc.condition.PatternsRequestCondition.getPatterns()" because "this.condition" is null
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:181)
+	at org.springframework.context.support.DefaultLifecycleProcessor.access$200(DefaultLifecycleProcessor.java:54)
+	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:356)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:155)
+	at org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:123)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:935)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:586)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:745)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:420)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1317)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at com.example.TrafficApplication.main(TrafficApplication.java:17)
+Caused by: java.lang.NullPointerException: Cannot invoke "org.springframework.web.servlet.mvc.condition.PatternsRequestCondition.getPatterns()" because "this.condition" is null
+	at springfox.documentation.spring.web.WebMvcPatternsRequestConditionWrapper.getPatterns(WebMvcPatternsRequestConditionWrapper.java:56)
+	at springfox.documentation.RequestHandler.sortedPaths(RequestHandler.java:113)
+	at springfox.documentation.spi.service.contexts.Orderings.lambda$byPatternsCondition$3(Orderings.java:89)
+	at java.base/java.util.Comparator.lambda$comparing$77a9974f$1(Comparator.java:473)
+	at java.base/java.util.TimSort.countRunAndMakeAscending(TimSort.java:355)
+	at java.base/java.util.TimSort.sort(TimSort.java:234)
+	at java.base/java.util.Arrays.sort(Arrays.java:1307)
+	at java.base/java.util.ArrayList.sort(ArrayList.java:1805)
+	at java.base/java.util.stream.SortedOps$RefSortingSink.end(SortedOps.java:392)
+	at java.base/java.util.stream.Sink$ChainedReference.end(Sink.java:261)
+	at java.base/java.util.stream.ReferencePipeline$7$1FlatMap.end(ReferencePipeline.java:285)
+	at java.base/java.util.stream.Sink$ChainedReference.end(Sink.java:261)
+	at java.base/java.util.stream.Sink$ChainedReference.end(Sink.java:261)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:571)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:727)
+	at springfox.documentation.spring.web.plugins.WebMvcRequestHandlerProvider.requestHandlers(WebMvcRequestHandlerProvider.java:81)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:215)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1709)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:570)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:727)
+	at springfox.documentation.spring.web.plugins.AbstractDocumentationPluginsBootstrapper.withDefaults(AbstractDocumentationPluginsBootstrapper.java:107)
+	at springfox.documentation.spring.web.plugins.AbstractDocumentationPluginsBootstrapper.buildContext(AbstractDocumentationPluginsBootstrapper.java:91)
+	at springfox.documentation.spring.web.plugins.AbstractDocumentationPluginsBootstrapper.bootstrapDocumentationPlugins(AbstractDocumentationPluginsBootstrapper.java:82)
+	at springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:100)
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:178)
+	... 14 common frames omitted
+2025-01-12 12:14:09.616 [main] INFO  com.example.TrafficApplication - Starting TrafficApplication using Java 23 on LAPTOP-QL7EKIO9 with PID 23640 (D:\JAVA\CODE\Traffic\target\classes started by yolo in D:\JAVA\CODE\Traffic)
+2025-01-12 12:14:09.620 [main] INFO  com.example.TrafficApplication - The following 1 profile is active: "dev"
+2025-01-12 12:14:11.071 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-01-12 12:14:11.072 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2025-01-12 12:14:11.202 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-01-12 12:14:11.326 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2025-01-12 12:14:11.460 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2025-01-12 12:14:12.374 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'documentationPluginsBootstrapper'; nested exception is java.lang.NullPointerException: Cannot invoke "org.springframework.web.servlet.mvc.condition.PatternsRequestCondition.getPatterns()" because "this.condition" is null
+2025-01-12 12:14:12.377 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2025-01-12 12:14:12.378 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2025-01-12 12:14:12.383 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2025-01-12 12:14:12.419 [main] ERROR org.springframework.boot.SpringApplication - Application run failed
+org.springframework.context.ApplicationContextException: Failed to start bean 'documentationPluginsBootstrapper'; nested exception is java.lang.NullPointerException: Cannot invoke "org.springframework.web.servlet.mvc.condition.PatternsRequestCondition.getPatterns()" because "this.condition" is null
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:181)
+	at org.springframework.context.support.DefaultLifecycleProcessor.access$200(DefaultLifecycleProcessor.java:54)
+	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:356)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:155)
+	at org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:123)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:935)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:586)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:745)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:420)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1317)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at com.example.TrafficApplication.main(TrafficApplication.java:17)
+Caused by: java.lang.NullPointerException: Cannot invoke "org.springframework.web.servlet.mvc.condition.PatternsRequestCondition.getPatterns()" because "this.condition" is null
+	at springfox.documentation.spring.web.WebMvcPatternsRequestConditionWrapper.getPatterns(WebMvcPatternsRequestConditionWrapper.java:56)
+	at springfox.documentation.RequestHandler.sortedPaths(RequestHandler.java:113)
+	at springfox.documentation.spi.service.contexts.Orderings.lambda$byPatternsCondition$3(Orderings.java:89)
+	at java.base/java.util.Comparator.lambda$comparing$77a9974f$1(Comparator.java:473)
+	at java.base/java.util.TimSort.countRunAndMakeAscending(TimSort.java:355)
+	at java.base/java.util.TimSort.sort(TimSort.java:234)
+	at java.base/java.util.Arrays.sort(Arrays.java:1307)
+	at java.base/java.util.ArrayList.sort(ArrayList.java:1805)
+	at java.base/java.util.stream.SortedOps$RefSortingSink.end(SortedOps.java:392)
+	at java.base/java.util.stream.Sink$ChainedReference.end(Sink.java:261)
+	at java.base/java.util.stream.ReferencePipeline$7$1FlatMap.end(ReferencePipeline.java:285)
+	at java.base/java.util.stream.Sink$ChainedReference.end(Sink.java:261)
+	at java.base/java.util.stream.Sink$ChainedReference.end(Sink.java:261)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:571)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:727)
+	at springfox.documentation.spring.web.plugins.WebMvcRequestHandlerProvider.requestHandlers(WebMvcRequestHandlerProvider.java:81)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:215)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1709)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:570)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:727)
+	at springfox.documentation.spring.web.plugins.AbstractDocumentationPluginsBootstrapper.withDefaults(AbstractDocumentationPluginsBootstrapper.java:107)
+	at springfox.documentation.spring.web.plugins.AbstractDocumentationPluginsBootstrapper.buildContext(AbstractDocumentationPluginsBootstrapper.java:91)
+	at springfox.documentation.spring.web.plugins.AbstractDocumentationPluginsBootstrapper.bootstrapDocumentationPlugins(AbstractDocumentationPluginsBootstrapper.java:82)
+	at springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:100)
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:178)
+	... 14 common frames omitted
+2025-01-12 12:15:53.957 [main] INFO  com.example.TrafficApplication - Starting TrafficApplication using Java 23 on LAPTOP-QL7EKIO9 with PID 22016 (D:\JAVA\CODE\Traffic\target\classes started by yolo in D:\JAVA\CODE\Traffic)
+2025-01-12 12:15:53.961 [main] INFO  com.example.TrafficApplication - The following 1 profile is active: "dev"
+2025-01-12 12:15:55.421 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-01-12 12:15:55.422 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2025-01-12 12:15:55.590 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-01-12 12:15:55.688 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2025-01-12 12:15:55.834 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2025-01-12 12:15:56.741 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'documentationPluginsBootstrapper'; nested exception is java.lang.NullPointerException: Cannot invoke "org.springframework.web.servlet.mvc.condition.PatternsRequestCondition.getPatterns()" because "this.condition" is null
+2025-01-12 12:15:56.744 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2025-01-12 12:15:56.745 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2025-01-12 12:15:56.750 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2025-01-12 12:15:56.786 [main] ERROR org.springframework.boot.SpringApplication - Application run failed
+org.springframework.context.ApplicationContextException: Failed to start bean 'documentationPluginsBootstrapper'; nested exception is java.lang.NullPointerException: Cannot invoke "org.springframework.web.servlet.mvc.condition.PatternsRequestCondition.getPatterns()" because "this.condition" is null
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:181)
+	at org.springframework.context.support.DefaultLifecycleProcessor.access$200(DefaultLifecycleProcessor.java:54)
+	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:356)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:155)
+	at org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:123)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:935)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:586)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:745)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:420)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1317)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at com.example.TrafficApplication.main(TrafficApplication.java:17)
+Caused by: java.lang.NullPointerException: Cannot invoke "org.springframework.web.servlet.mvc.condition.PatternsRequestCondition.getPatterns()" because "this.condition" is null
+	at springfox.documentation.spring.web.WebMvcPatternsRequestConditionWrapper.getPatterns(WebMvcPatternsRequestConditionWrapper.java:56)
+	at springfox.documentation.RequestHandler.sortedPaths(RequestHandler.java:113)
+	at springfox.documentation.spi.service.contexts.Orderings.lambda$byPatternsCondition$3(Orderings.java:89)
+	at java.base/java.util.Comparator.lambda$comparing$77a9974f$1(Comparator.java:473)
+	at java.base/java.util.TimSort.countRunAndMakeAscending(TimSort.java:355)
+	at java.base/java.util.TimSort.sort(TimSort.java:234)
+	at java.base/java.util.Arrays.sort(Arrays.java:1307)
+	at java.base/java.util.ArrayList.sort(ArrayList.java:1805)
+	at java.base/java.util.stream.SortedOps$RefSortingSink.end(SortedOps.java:392)
+	at java.base/java.util.stream.Sink$ChainedReference.end(Sink.java:261)
+	at java.base/java.util.stream.ReferencePipeline$7$1FlatMap.end(ReferencePipeline.java:285)
+	at java.base/java.util.stream.Sink$ChainedReference.end(Sink.java:261)
+	at java.base/java.util.stream.Sink$ChainedReference.end(Sink.java:261)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:571)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:727)
+	at springfox.documentation.spring.web.plugins.WebMvcRequestHandlerProvider.requestHandlers(WebMvcRequestHandlerProvider.java:81)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:215)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1709)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:570)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:727)
+	at springfox.documentation.spring.web.plugins.AbstractDocumentationPluginsBootstrapper.withDefaults(AbstractDocumentationPluginsBootstrapper.java:107)
+	at springfox.documentation.spring.web.plugins.AbstractDocumentationPluginsBootstrapper.buildContext(AbstractDocumentationPluginsBootstrapper.java:91)
+	at springfox.documentation.spring.web.plugins.AbstractDocumentationPluginsBootstrapper.bootstrapDocumentationPlugins(AbstractDocumentationPluginsBootstrapper.java:82)
+	at springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:100)
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:178)
+	... 14 common frames omitted
+2025-01-12 12:19:34.957 [main] INFO  com.example.TrafficApplication - Starting TrafficApplication using Java 23 on LAPTOP-QL7EKIO9 with PID 12096 (D:\JAVA\CODE\Traffic\target\classes started by yolo in D:\JAVA\CODE\Traffic)
+2025-01-12 12:19:34.960 [main] INFO  com.example.TrafficApplication - The following 1 profile is active: "dev"
+2025-01-12 12:19:36.267 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-01-12 12:19:36.267 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2025-01-12 12:19:36.382 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-01-12 12:19:36.456 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2025-01-12 12:19:36.556 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2025-01-12 12:19:37.790 [main] INFO  com.example.TrafficApplication - Started TrafficApplication in 3.342 seconds (JVM running for 3.94)
+2025-01-12 12:20:09.585 [http-nio-8082-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-12 12:20:10.235 [http-nio-8082-exec-8] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /favicon.ico
+2025-01-12 12:24:19.782 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2025-01-12 12:24:19.784 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2025-01-12 12:24:24.620 [main] INFO  com.example.TrafficApplication - Starting TrafficApplication using Java 23 on LAPTOP-QL7EKIO9 with PID 29392 (D:\JAVA\CODE\Traffic\target\classes started by yolo in D:\JAVA\CODE\Traffic)
+2025-01-12 12:24:24.622 [main] INFO  com.example.TrafficApplication - The following 1 profile is active: "dev"
+2025-01-12 12:24:26.046 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-01-12 12:24:26.047 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2025-01-12 12:24:26.206 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-01-12 12:24:26.304 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2025-01-12 12:24:26.419 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2025-01-12 12:24:27.639 [main] INFO  com.example.TrafficApplication - Started TrafficApplication in 3.444 seconds (JVM running for 3.984)
+2025-01-12 12:29:16.012 [http-nio-8082-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-12 12:29:40.916 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2025-01-12 12:29:40.917 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2025-01-12 12:29:45.282 [main] INFO  com.example.TrafficApplication - Starting TrafficApplication using Java 23 on LAPTOP-QL7EKIO9 with PID 12840 (D:\JAVA\CODE\Traffic\target\classes started by yolo in D:\JAVA\CODE\Traffic)
+2025-01-12 12:29:45.286 [main] INFO  com.example.TrafficApplication - The following 1 profile is active: "dev"
+2025-01-12 12:29:46.587 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-01-12 12:29:46.588 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2025-01-12 12:29:46.703 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-01-12 12:29:46.796 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2025-01-12 12:29:46.935 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2025-01-12 12:29:48.244 [main] INFO  com.example.TrafficApplication - Started TrafficApplication in 3.436 seconds (JVM running for 3.984)
+2025-01-12 12:29:57.294 [http-nio-8082-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-12 12:39:17.357 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2025-01-12 12:39:17.367 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2025-01-12 12:39:22.322 [main] INFO  com.example.TrafficApplication - Starting TrafficApplication using Java 23 on LAPTOP-QL7EKIO9 with PID 26368 (D:\JAVA\CODE\Traffic\target\classes started by yolo in D:\JAVA\CODE\Traffic)
+2025-01-12 12:39:22.326 [main] INFO  com.example.TrafficApplication - The following 1 profile is active: "dev"
+2025-01-12 12:39:23.598 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-01-12 12:39:23.599 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2025-01-12 12:39:23.713 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-01-12 12:39:23.806 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2025-01-12 12:39:23.908 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2025-01-12 12:39:25.181 [main] INFO  com.example.TrafficApplication - Started TrafficApplication in 3.372 seconds (JVM running for 4.572)
+2025-01-12 12:39:56.623 [http-nio-8082-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-12 12:40:33.150 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2025-01-12 12:40:33.163 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2025-01-12 12:40:36.749 [main] INFO  com.example.TrafficApplication - Starting TrafficApplication using Java 23 on LAPTOP-QL7EKIO9 with PID 27328 (D:\JAVA\CODE\Traffic\target\classes started by yolo in D:\JAVA\CODE\Traffic)
+2025-01-12 12:40:36.752 [main] INFO  com.example.TrafficApplication - The following 1 profile is active: "dev"
+2025-01-12 12:40:37.897 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-01-12 12:40:37.897 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2025-01-12 12:40:38.016 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-01-12 12:40:38.106 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2025-01-12 12:40:38.209 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2025-01-12 12:40:39.330 [main] INFO  com.example.TrafficApplication - Started TrafficApplication in 2.982 seconds (JVM running for 3.504)
+2025-01-12 12:40:40.581 [http-nio-8082-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-12 12:42:18.713 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2025-01-12 12:42:18.715 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2025-01-12 12:42:20.930 [main] INFO  com.example.TrafficApplication - Starting TrafficApplication using Java 23 on LAPTOP-QL7EKIO9 with PID 4704 (D:\JAVA\CODE\Traffic\target\classes started by yolo in D:\JAVA\CODE\Traffic)
+2025-01-12 12:42:20.932 [main] INFO  com.example.TrafficApplication - The following 1 profile is active: "dev"
+2025-01-12 12:42:22.196 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-01-12 12:42:22.196 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2025-01-12 12:42:22.362 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-01-12 12:42:22.455 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2025-01-12 12:42:22.568 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2025-01-12 12:42:23.821 [main] INFO  com.example.TrafficApplication - Started TrafficApplication in 3.318 seconds (JVM running for 3.915)
+2025-01-12 12:42:30.294 [http-nio-8082-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-12 12:51:26.545 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2025-01-12 12:51:26.550 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2025-01-12 12:52:54.783 [main] INFO  com.example.TrafficApplication - Starting TrafficApplication using Java 23 on LAPTOP-QL7EKIO9 with PID 26612 (D:\JAVA\CODE\Traffic\target\classes started by yolo in D:\JAVA\CODE\Traffic)
+2025-01-12 12:52:54.786 [main] INFO  com.example.TrafficApplication - The following 1 profile is active: "dev"
+2025-01-12 12:52:56.169 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-01-12 12:52:56.170 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2025-01-12 12:52:56.300 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-01-12 12:52:56.401 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2025-01-12 12:52:56.513 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2025-01-12 12:52:57.729 [main] INFO  com.example.TrafficApplication - Started TrafficApplication in 3.385 seconds (JVM running for 3.931)
+2025-01-12 12:53:06.475 [http-nio-8082-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-12 13:17:39.769 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2025-01-12 13:17:39.777 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed

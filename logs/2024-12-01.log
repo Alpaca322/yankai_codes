@@ -1,0 +1,864 @@
+2024-12-01 17:31:48.424 [main] INFO  com.example.TrafficApplicationTests - Starting TrafficApplicationTests using Java 23 on LAPTOP-QL7EKIO9 with PID 23668 (started by yolo in D:\JAVA\CODE\Traffic)
+2024-12-01 17:31:48.424 [main] INFO  com.example.TrafficApplicationTests - The following 1 profile is active: "dev"
+2024-12-01 17:31:49.386 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2024-12-01 17:31:49.667 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2024-12-01 17:31:50.899 [main] INFO  com.example.TrafficApplicationTests - Started TrafficApplicationTests in 2.929 seconds (JVM running for 3.816)
+2024-12-01 17:31:52.066 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2024-12-01 17:31:52.082 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2024-12-01 17:32:07.260 [main] INFO  com.example.TrafficApplicationTests - Starting TrafficApplicationTests using Java 23 on LAPTOP-QL7EKIO9 with PID 8992 (started by yolo in D:\JAVA\CODE\Traffic)
+2024-12-01 17:32:07.260 [main] INFO  com.example.TrafficApplicationTests - The following 1 profile is active: "dev"
+2024-12-01 17:32:08.124 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2024-12-01 17:32:08.390 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2024-12-01 17:32:09.625 [main] INFO  com.example.TrafficApplicationTests - Started TrafficApplicationTests in 2.784 seconds (JVM running for 3.614)
+2024-12-01 17:32:10.770 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2024-12-01 17:32:10.770 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2024-12-01 17:41:43.689 [main] INFO  com.example.TrafficApplicationTests - Starting TrafficApplicationTests using Java 23 on LAPTOP-QL7EKIO9 with PID 7868 (started by yolo in D:\JAVA\CODE\Traffic)
+2024-12-01 17:41:43.689 [main] INFO  com.example.TrafficApplicationTests - The following 1 profile is active: "dev"
+2024-12-01 17:41:44.499 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2024-12-01 17:41:44.780 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2024-12-01 17:41:46.095 [main] INFO  com.example.TrafficApplicationTests - Started TrafficApplicationTests in 2.806 seconds (JVM running for 3.632)
+2024-12-01 17:41:47.064 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2024-12-01 17:41:47.079 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2024-12-01 17:49:39.212 [main] INFO  com.example.TrafficApplicationTests - Starting TrafficApplicationTests using Java 23 on LAPTOP-QL7EKIO9 with PID 15020 (started by yolo in D:\JAVA\CODE\Traffic)
+2024-12-01 17:49:39.212 [main] INFO  com.example.TrafficApplicationTests - The following 1 profile is active: "dev"
+2024-12-01 17:49:40.017 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2024-12-01 17:49:40.299 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2024-12-01 17:49:41.706 [main] INFO  com.example.TrafficApplicationTests - Started TrafficApplicationTests in 2.872 seconds (JVM running for 3.685)
+2024-12-01 17:49:42.778 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2024-12-01 17:49:42.778 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2024-12-01 17:55:32.514 [main] INFO  com.example.TrafficApplicationTests - Starting TrafficApplicationTests using Java 23 on LAPTOP-QL7EKIO9 with PID 15148 (started by yolo in D:\JAVA\CODE\Traffic)
+2024-12-01 17:55:32.529 [main] INFO  com.example.TrafficApplicationTests - The following 1 profile is active: "dev"
+2024-12-01 17:55:33.392 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2024-12-01 17:55:33.705 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2024-12-01 17:55:35.021 [main] INFO  com.example.TrafficApplicationTests - Started TrafficApplicationTests in 2.909 seconds (JVM running for 3.884)
+2024-12-01 17:55:35.256 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2024-12-01 17:55:35.256 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2024-12-01 17:57:44.839 [main] INFO  com.example.TrafficApplicationTests - Starting TrafficApplicationTests using Java 23 on LAPTOP-QL7EKIO9 with PID 20584 (started by yolo in D:\JAVA\CODE\Traffic)
+2024-12-01 17:57:44.839 [main] INFO  com.example.TrafficApplicationTests - The following 1 profile is active: "dev"
+2024-12-01 17:57:45.825 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2024-12-01 17:57:46.092 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2024-12-01 17:57:47.340 [main] INFO  com.example.TrafficApplicationTests - Started TrafficApplicationTests in 2.916 seconds (JVM running for 3.759)
+2024-12-01 17:57:47.594 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2024-12-01 17:57:47.595 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2024-12-01 18:01:37.994 [main] INFO  com.example.TrafficApplicationTests - Starting TrafficApplicationTests using Java 23 on LAPTOP-QL7EKIO9 with PID 16416 (started by yolo in D:\JAVA\CODE\Traffic)
+2024-12-01 18:01:37.994 [main] INFO  com.example.TrafficApplicationTests - The following 1 profile is active: "dev"
+2024-12-01 18:01:38.899 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2024-12-01 18:01:39.174 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2024-12-01 18:01:40.426 [main] INFO  com.example.TrafficApplicationTests - Started TrafficApplicationTests in 2.804 seconds (JVM running for 3.61)
+2024-12-01 18:01:40.656 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2024-12-01 18:01:40.656 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2024-12-01 18:05:20.521 [main] INFO  com.example.TrafficApplicationTests - Starting TrafficApplicationTests using Java 23 on LAPTOP-QL7EKIO9 with PID 7560 (started by yolo in D:\JAVA\CODE\Traffic)
+2024-12-01 18:05:20.521 [main] INFO  com.example.TrafficApplicationTests - The following 1 profile is active: "dev"
+2024-12-01 18:05:21.362 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2024-12-01 18:05:21.653 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2024-12-01 18:05:22.937 [main] INFO  com.example.TrafficApplicationTests - Started TrafficApplicationTests in 2.784 seconds (JVM running for 3.604)
+2024-12-01 18:05:23.205 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2024-12-01 18:05:23.205 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2024-12-01 18:07:28.278 [main] INFO  com.example.TrafficApplicationTests - Starting TrafficApplicationTests using Java 23 on LAPTOP-QL7EKIO9 with PID 26248 (started by yolo in D:\JAVA\CODE\Traffic)
+2024-12-01 18:07:28.278 [main] INFO  com.example.TrafficApplicationTests - The following 1 profile is active: "dev"
+2024-12-01 18:07:29.110 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2024-12-01 18:07:29.392 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2024-12-01 18:07:29.534 [main] WARN  o.s.w.context.support.GenericWebApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dataRecordsController': Unsatisfied dependency expressed through field 'dataRecordsService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dataRecordsServiceImpl': Unsatisfied dependency expressed through field 'dataRecordsMapper'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dataRecordsMapper' defined in file [D:\JAVA\CODE\Traffic\target\classes\com\example\mapper\DataRecordsMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is java.io.IOException: Failed to parse mapping resource: 'file [D:\JAVA\CODE\Traffic\target\classes\mapper\DataRecordsMapper.xml]'
+2024-12-01 18:07:29.534 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2024-12-01 18:07:29.534 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2024-12-01 18:07:29.580 [main] ERROR org.springframework.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dataRecordsController': Unsatisfied dependency expressed through field 'dataRecordsService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dataRecordsServiceImpl': Unsatisfied dependency expressed through field 'dataRecordsMapper'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dataRecordsMapper' defined in file [D:\JAVA\CODE\Traffic\target\classes\com\example\mapper\DataRecordsMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is java.io.IOException: Failed to parse mapping resource: 'file [D:\JAVA\CODE\Traffic\target\classes\mapper\DataRecordsMapper.xml]'
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:659)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:639)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:745)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:420)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:144)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:141)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:90)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:124)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:190)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:132)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:248)
+	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:138)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$8(ClassBasedTestDescriptor.java:363)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.executeAndMaskThrowable(ClassBasedTestDescriptor.java:368)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$9(ClassBasedTestDescriptor.java:363)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:215)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1709)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:570)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560)
+	at java.base/java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:315)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:735)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:734)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:807)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeTestInstancePostProcessors(ClassBasedTestDescriptor.java:362)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$instantiateAndPostProcessTestInstance$6(ClassBasedTestDescriptor.java:283)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.instantiateAndPostProcessTestInstance(ClassBasedTestDescriptor.java:282)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$4(ClassBasedTestDescriptor.java:272)
+	at java.base/java.util.Optional.orElseGet(Optional.java:364)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$5(ClassBasedTestDescriptor.java:271)
+	at org.junit.jupiter.engine.execution.TestInstancesProvider.getTestInstances(TestInstancesProvider.java:31)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$prepare$0(TestMethodTestDescriptor.java:102)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:101)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:66)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$prepare$2(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.prepare(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:90)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:107)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:86)
+	at org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.execute(DefaultLauncherSession.java:86)
+	at org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:53)
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:57)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:232)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:55)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dataRecordsServiceImpl': Unsatisfied dependency expressed through field 'dataRecordsMapper'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dataRecordsMapper' defined in file [D:\JAVA\CODE\Traffic\target\classes\com\example\mapper\DataRecordsMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is java.io.IOException: Failed to parse mapping resource: 'file [D:\JAVA\CODE\Traffic\target\classes\mapper\DataRecordsMapper.xml]'
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:659)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:639)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:656)
+	... 90 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dataRecordsMapper' defined in file [D:\JAVA\CODE\Traffic\target\classes\com\example\mapper\DataRecordsMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is java.io.IOException: Failed to parse mapping resource: 'file [D:\JAVA\CODE\Traffic\target\classes\mapper\DataRecordsMapper.xml]'
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireByType(AbstractAutowireCapableBeanFactory.java:1534)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1417)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:656)
+	... 104 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is java.io.IOException: Failed to parse mapping resource: 'file [D:\JAVA\CODE\Traffic\target\classes\mapper\DataRecordsMapper.xml]'
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:658)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:638)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireByType(AbstractAutowireCapableBeanFactory.java:1519)
+	... 115 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is java.io.IOException: Failed to parse mapping resource: 'file [D:\JAVA\CODE\Traffic\target\classes\mapper\DataRecordsMapper.xml]'
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	... 128 common frames omitted
+Caused by: java.io.IOException: Failed to parse mapping resource: 'file [D:\JAVA\CODE\Traffic\target\classes\mapper\DataRecordsMapper.xml]'
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:700)
+	at org.mybatis.spring.SqlSessionFactoryBean.afterPropertiesSet(SqlSessionFactoryBean.java:577)
+	at org.mybatis.spring.SqlSessionFactoryBean.getObject(SqlSessionFactoryBean.java:720)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration.sqlSessionFactory(MybatisAutoConfiguration.java:187)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$33c62b9e.CGLIB$sqlSessionFactory$2(<generated>)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$33c62b9e$$FastClassBySpringCGLIB$$b6a5e0fd.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$33c62b9e.sqlSessionFactory(<generated>)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 129 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error creating document instance.  Cause: org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 1; 文件提前结束。
+	at org.apache.ibatis.parsing.XPathParser.createDocument(XPathParser.java:262)
+	at org.apache.ibatis.parsing.XPathParser.<init>(XPathParser.java:127)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.<init>(XMLMapperBuilder.java:85)
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:697)
+	... 140 common frames omitted
+Caused by: org.xml.sax.SAXParseException: 文件提前结束。
+	at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:204)
+	at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:178)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1465)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(XMLDocumentScannerImpl.java:1043)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:635)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:551)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:890)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:826)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:134)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:247)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:342)
+	at org.apache.ibatis.parsing.XPathParser.createDocument(XPathParser.java:260)
+	... 143 common frames omitted
+2024-12-01 18:07:29.580 [main] ERROR o.springframework.test.context.TestContextManager - Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@41294f8] to prepare test instance [com.example.TrafficApplicationTests@4373f66f]
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:98)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:124)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:190)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:132)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:248)
+	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:138)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$8(ClassBasedTestDescriptor.java:363)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.executeAndMaskThrowable(ClassBasedTestDescriptor.java:368)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$9(ClassBasedTestDescriptor.java:363)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:215)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1709)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:570)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560)
+	at java.base/java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:315)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:735)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:734)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:807)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeTestInstancePostProcessors(ClassBasedTestDescriptor.java:362)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$instantiateAndPostProcessTestInstance$6(ClassBasedTestDescriptor.java:283)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.instantiateAndPostProcessTestInstance(ClassBasedTestDescriptor.java:282)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$4(ClassBasedTestDescriptor.java:272)
+	at java.base/java.util.Optional.orElseGet(Optional.java:364)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$5(ClassBasedTestDescriptor.java:271)
+	at org.junit.jupiter.engine.execution.TestInstancesProvider.getTestInstances(TestInstancesProvider.java:31)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$prepare$0(TestMethodTestDescriptor.java:102)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:101)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:66)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$prepare$2(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.prepare(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:90)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:107)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:86)
+	at org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.execute(DefaultLauncherSession.java:86)
+	at org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:53)
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:57)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:232)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:55)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dataRecordsController': Unsatisfied dependency expressed through field 'dataRecordsService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dataRecordsServiceImpl': Unsatisfied dependency expressed through field 'dataRecordsMapper'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dataRecordsMapper' defined in file [D:\JAVA\CODE\Traffic\target\classes\com\example\mapper\DataRecordsMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is java.io.IOException: Failed to parse mapping resource: 'file [D:\JAVA\CODE\Traffic\target\classes\mapper\DataRecordsMapper.xml]'
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:659)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:639)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:745)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:420)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:144)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:141)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:90)
+	... 71 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dataRecordsServiceImpl': Unsatisfied dependency expressed through field 'dataRecordsMapper'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dataRecordsMapper' defined in file [D:\JAVA\CODE\Traffic\target\classes\com\example\mapper\DataRecordsMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is java.io.IOException: Failed to parse mapping resource: 'file [D:\JAVA\CODE\Traffic\target\classes\mapper\DataRecordsMapper.xml]'
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:659)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:639)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:656)
+	... 90 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dataRecordsMapper' defined in file [D:\JAVA\CODE\Traffic\target\classes\com\example\mapper\DataRecordsMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is java.io.IOException: Failed to parse mapping resource: 'file [D:\JAVA\CODE\Traffic\target\classes\mapper\DataRecordsMapper.xml]'
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireByType(AbstractAutowireCapableBeanFactory.java:1534)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1417)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:656)
+	... 104 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is java.io.IOException: Failed to parse mapping resource: 'file [D:\JAVA\CODE\Traffic\target\classes\mapper\DataRecordsMapper.xml]'
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:658)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:638)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireByType(AbstractAutowireCapableBeanFactory.java:1519)
+	... 115 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is java.io.IOException: Failed to parse mapping resource: 'file [D:\JAVA\CODE\Traffic\target\classes\mapper\DataRecordsMapper.xml]'
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	... 128 common frames omitted
+Caused by: java.io.IOException: Failed to parse mapping resource: 'file [D:\JAVA\CODE\Traffic\target\classes\mapper\DataRecordsMapper.xml]'
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:700)
+	at org.mybatis.spring.SqlSessionFactoryBean.afterPropertiesSet(SqlSessionFactoryBean.java:577)
+	at org.mybatis.spring.SqlSessionFactoryBean.getObject(SqlSessionFactoryBean.java:720)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration.sqlSessionFactory(MybatisAutoConfiguration.java:187)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$33c62b9e.CGLIB$sqlSessionFactory$2(<generated>)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$33c62b9e$$FastClassBySpringCGLIB$$b6a5e0fd.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$33c62b9e.sqlSessionFactory(<generated>)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 129 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error creating document instance.  Cause: org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 1; 文件提前结束。
+	at org.apache.ibatis.parsing.XPathParser.createDocument(XPathParser.java:262)
+	at org.apache.ibatis.parsing.XPathParser.<init>(XPathParser.java:127)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.<init>(XMLMapperBuilder.java:85)
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:697)
+	... 140 common frames omitted
+Caused by: org.xml.sax.SAXParseException: 文件提前结束。
+	at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:204)
+	at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:178)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1465)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(XMLDocumentScannerImpl.java:1043)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:635)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:551)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:890)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:826)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:134)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:247)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:342)
+	at org.apache.ibatis.parsing.XPathParser.createDocument(XPathParser.java:260)
+	... 143 common frames omitted
+2024-12-01 18:09:13.992 [main] INFO  com.example.TrafficApplicationTests - Starting TrafficApplicationTests using Java 23 on LAPTOP-QL7EKIO9 with PID 19740 (started by yolo in D:\JAVA\CODE\Traffic)
+2024-12-01 18:09:13.992 [main] INFO  com.example.TrafficApplicationTests - The following 1 profile is active: "dev"
+2024-12-01 18:09:14.840 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2024-12-01 18:09:15.075 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2024-12-01 18:09:16.327 [main] INFO  com.example.TrafficApplicationTests - Started TrafficApplicationTests in 2.728 seconds (JVM running for 3.623)
+2024-12-01 18:09:17.495 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2024-12-01 18:09:17.495 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2024-12-01 20:05:37.536 [main] INFO  com.example.TrafficApplication - Starting TrafficApplication using Java 23 on LAPTOP-QL7EKIO9 with PID 25168 (D:\JAVA\CODE\Traffic\target\classes started by yolo in D:\JAVA\CODE\Traffic)
+2024-12-01 20:05:37.536 [main] INFO  com.example.TrafficApplication - The following 1 profile is active: "dev"
+2024-12-01 20:05:38.527 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-12-01 20:05:38.527 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-12-01 20:05:38.610 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-12-01 20:05:38.680 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2024-12-01 20:05:38.784 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2024-12-01 20:05:39.273 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+2024-12-01 20:05:39.275 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2024-12-01 20:05:39.277 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2024-12-01 20:05:39.280 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2024-12-01 20:05:39.328 [main] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2024-12-01 20:14:15.274 [main] INFO  com.example.TrafficApplication - Starting TrafficApplication using Java 23 on LAPTOP-QL7EKIO9 with PID 26692 (D:\JAVA\CODE\Traffic\target\classes started by yolo in D:\JAVA\CODE\Traffic)
+2024-12-01 20:14:15.276 [main] INFO  com.example.TrafficApplication - The following 1 profile is active: "dev"
+2024-12-01 20:14:16.298 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-12-01 20:14:16.299 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-12-01 20:14:16.385 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-12-01 20:14:16.456 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2024-12-01 20:14:16.568 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2024-12-01 20:14:17.066 [main] INFO  com.example.TrafficApplication - Started TrafficApplication in 2.316 seconds (JVM running for 3.482)
+2024-12-01 20:14:26.708 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2024-12-01 20:14:26.710 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2024-12-01 20:14:30.870 [main] INFO  com.example.TrafficApplication - Starting TrafficApplication using Java 23 on LAPTOP-QL7EKIO9 with PID 7820 (D:\JAVA\CODE\Traffic\target\classes started by yolo in D:\JAVA\CODE\Traffic)
+2024-12-01 20:14:30.870 [main] INFO  com.example.TrafficApplication - The following 1 profile is active: "dev"
+2024-12-01 20:14:31.728 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-12-01 20:14:31.728 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-12-01 20:14:31.840 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-12-01 20:14:31.918 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2024-12-01 20:14:32.024 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2024-12-01 20:14:32.513 [main] INFO  com.example.TrafficApplication - Started TrafficApplication in 1.996 seconds (JVM running for 2.472)
+2024-12-01 20:14:57.192 [http-nio-8082-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-01 20:25:54.520 [http-nio-8082-exec-9] WARN  o.s.w.s.m.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'userDTO' for method parameter type UserDTO is not present]
+2024-12-01 20:29:27.578 [http-nio-8082-exec-4] WARN  o.s.w.s.m.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'userDTO' for method parameter type UserDTO is not present]
+2024-12-01 20:29:49.018 [http-nio-8082-exec-10] WARN  o.s.w.s.m.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'userDTO' for method parameter type UserDTO is not present]
+2024-12-01 20:31:41.368 [http-nio-8082-exec-8] WARN  o.s.w.s.m.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'userDTO' for method parameter type UserDTO is not present]
+2024-12-01 20:32:05.051 [http-nio-8082-exec-1] WARN  o.s.w.s.m.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'userDTO' for method parameter type UserDTO is not present]
+2024-12-01 20:33:33.768 [http-nio-8082-exec-2] WARN  o.s.w.s.m.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'userDTO' for method parameter type UserDTO is not present]
+2024-12-01 20:33:43.947 [http-nio-8082-exec-3] WARN  o.s.w.s.m.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'userDTO' for method parameter type UserDTO is not present]
+2024-12-01 20:34:21.002 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2024-12-01 20:34:21.002 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2024-12-01 20:34:24.557 [main] INFO  com.example.TrafficApplication - Starting TrafficApplication using Java 23 on LAPTOP-QL7EKIO9 with PID 16828 (D:\JAVA\CODE\Traffic\target\classes started by yolo in D:\JAVA\CODE\Traffic)
+2024-12-01 20:34:24.557 [main] INFO  com.example.TrafficApplication - The following 1 profile is active: "dev"
+2024-12-01 20:34:25.659 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-12-01 20:34:25.660 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-12-01 20:34:25.780 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-12-01 20:34:25.887 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2024-12-01 20:34:26.042 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2024-12-01 20:34:26.593 [main] INFO  com.example.TrafficApplication - Started TrafficApplication in 2.452 seconds (JVM running for 2.969)
+2024-12-01 20:35:13.282 [http-nio-8082-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-01 20:43:17.322 [http-nio-8082-exec-7] WARN  o.s.w.s.m.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "user"]
+2024-12-01 20:43:52.733 [http-nio-8082-exec-9] ERROR o.a.c.c.C.[.[localhost].[/].[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Circular view path [user]: would dispatch back to the current handler URL [/user] again. Check your ViewResolver setup! (Hint: This may be the result of an unspecified view, due to default view name generation.)] with root cause
+javax.servlet.ServletException: Circular view path [user]: would dispatch back to the current handler URL [/user] again. Check your ViewResolver setup! (Hint: This may be the result of an unspecified view, due to default view name generation.)
+	at org.springframework.web.servlet.view.InternalResourceView.prepareForRendering(InternalResourceView.java:210)
+	at org.springframework.web.servlet.view.InternalResourceView.renderMergedOutputModel(InternalResourceView.java:148)
+	at org.springframework.web.servlet.view.AbstractView.render(AbstractView.java:316)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1405)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1149)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1088)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:964)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:670)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:779)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+2024-12-01 20:44:35.096 [http-nio-8082-exec-3] WARN  o.s.w.s.m.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "login"]
+2024-12-01 20:44:37.473 [http-nio-8082-exec-2] WARN  o.s.w.s.m.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "login"]
+2024-12-01 20:49:19.380 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2024-12-01 20:49:19.380 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2024-12-01 20:49:21.506 [main] INFO  com.example.TrafficApplication - Starting TrafficApplication using Java 23 on LAPTOP-QL7EKIO9 with PID 23980 (D:\JAVA\CODE\Traffic\target\classes started by yolo in D:\JAVA\CODE\Traffic)
+2024-12-01 20:49:21.506 [main] INFO  com.example.TrafficApplication - The following 1 profile is active: "dev"
+2024-12-01 20:49:22.468 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-12-01 20:49:22.469 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-12-01 20:49:22.542 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-12-01 20:49:22.629 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2024-12-01 20:49:22.772 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2024-12-01 20:49:23.377 [main] INFO  com.example.TrafficApplication - Started TrafficApplication in 2.284 seconds (JVM running for 2.788)
+2024-12-01 20:49:30.679 [http-nio-8082-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-01 20:50:16.551 [http-nio-8082-exec-6] ERROR o.a.c.c.C.[.[localhost].[/].[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Circular view path [user]: would dispatch back to the current handler URL [/user] again. Check your ViewResolver setup! (Hint: This may be the result of an unspecified view, due to default view name generation.)] with root cause
+javax.servlet.ServletException: Circular view path [user]: would dispatch back to the current handler URL [/user] again. Check your ViewResolver setup! (Hint: This may be the result of an unspecified view, due to default view name generation.)
+	at org.springframework.web.servlet.view.InternalResourceView.prepareForRendering(InternalResourceView.java:210)
+	at org.springframework.web.servlet.view.InternalResourceView.renderMergedOutputModel(InternalResourceView.java:148)
+	at org.springframework.web.servlet.view.AbstractView.render(AbstractView.java:316)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1405)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1149)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1088)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:964)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:670)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:779)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+2024-12-01 20:50:41.417 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2024-12-01 20:50:41.436 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2024-12-01 20:50:44.985 [main] INFO  com.example.TrafficApplication - Starting TrafficApplication using Java 23 on LAPTOP-QL7EKIO9 with PID 17976 (D:\JAVA\CODE\Traffic\target\classes started by yolo in D:\JAVA\CODE\Traffic)
+2024-12-01 20:50:44.985 [main] INFO  com.example.TrafficApplication - The following 1 profile is active: "dev"
+2024-12-01 20:50:45.841 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-12-01 20:50:45.841 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-12-01 20:50:45.935 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-12-01 20:50:46.002 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2024-12-01 20:50:46.103 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2024-12-01 20:50:46.640 [main] INFO  com.example.TrafficApplication - Started TrafficApplication in 2.09 seconds (JVM running for 2.581)
+2024-12-01 20:50:54.809 [http-nio-8082-exec-5] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-01 20:54:10.873 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2024-12-01 20:54:10.879 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2024-12-01 20:54:13.849 [main] INFO  com.example.TrafficApplication - Starting TrafficApplication using Java 23 on LAPTOP-QL7EKIO9 with PID 16928 (D:\JAVA\CODE\Traffic\target\classes started by yolo in D:\JAVA\CODE\Traffic)
+2024-12-01 20:54:13.852 [main] INFO  com.example.TrafficApplication - The following 1 profile is active: "dev"
+2024-12-01 20:54:14.724 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-12-01 20:54:14.725 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-12-01 20:54:14.807 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-12-01 20:54:14.881 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2024-12-01 20:54:14.986 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2024-12-01 20:54:15.619 [main] INFO  com.example.TrafficApplication - Started TrafficApplication in 2.166 seconds (JVM running for 2.997)
+2024-12-01 20:54:20.850 [http-nio-8082-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-01 20:56:03.550 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2024-12-01 20:56:03.567 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2024-12-01 20:56:07.371 [main] INFO  com.example.TrafficApplication - Starting TrafficApplication using Java 23 on LAPTOP-QL7EKIO9 with PID 9872 (D:\JAVA\CODE\Traffic\target\classes started by yolo in D:\JAVA\CODE\Traffic)
+2024-12-01 20:56:07.371 [main] INFO  com.example.TrafficApplication - The following 1 profile is active: "dev"
+2024-12-01 20:56:08.314 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-12-01 20:56:08.314 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-12-01 20:56:08.438 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-12-01 20:56:08.517 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2024-12-01 20:56:08.614 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2024-12-01 20:56:09.202 [main] INFO  com.example.TrafficApplication - Started TrafficApplication in 2.249 seconds (JVM running for 2.781)
+2024-12-01 20:56:12.293 [http-nio-8082-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-01 20:58:02.326 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2024-12-01 20:58:02.332 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2024-12-01 20:58:05.804 [main] INFO  com.example.TrafficApplication - Starting TrafficApplication using Java 23 on LAPTOP-QL7EKIO9 with PID 21320 (D:\JAVA\CODE\Traffic\target\classes started by yolo in D:\JAVA\CODE\Traffic)
+2024-12-01 20:58:05.804 [main] INFO  com.example.TrafficApplication - The following 1 profile is active: "dev"
+2024-12-01 20:58:06.723 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-12-01 20:58:06.724 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-12-01 20:58:06.822 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-12-01 20:58:06.893 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2024-12-01 20:58:06.997 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2024-12-01 20:58:07.558 [main] INFO  com.example.TrafficApplication - Started TrafficApplication in 2.173 seconds (JVM running for 2.721)
+2024-12-01 20:58:14.291 [http-nio-8082-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-01 20:59:35.209 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2024-12-01 20:59:35.209 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2024-12-01 20:59:38.439 [main] INFO  com.example.TrafficApplication - Starting TrafficApplication using Java 23 on LAPTOP-QL7EKIO9 with PID 23580 (D:\JAVA\CODE\Traffic\target\classes started by yolo in D:\JAVA\CODE\Traffic)
+2024-12-01 20:59:38.442 [main] INFO  com.example.TrafficApplication - The following 1 profile is active: "dev"
+2024-12-01 20:59:39.443 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-12-01 20:59:39.444 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-12-01 20:59:39.607 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-12-01 20:59:39.683 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2024-12-01 20:59:39.786 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2024-12-01 20:59:40.362 [main] INFO  com.example.TrafficApplication - Started TrafficApplication in 2.336 seconds (JVM running for 2.859)
+2024-12-01 20:59:44.990 [http-nio-8082-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-01 20:59:52.154 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2024-12-01 20:59:52.162 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2024-12-01 20:59:55.443 [main] INFO  com.example.TrafficApplication - Starting TrafficApplication using Java 23 on LAPTOP-QL7EKIO9 with PID 19912 (D:\JAVA\CODE\Traffic\target\classes started by yolo in D:\JAVA\CODE\Traffic)
+2024-12-01 20:59:55.446 [main] INFO  com.example.TrafficApplication - The following 1 profile is active: "dev"
+2024-12-01 20:59:56.303 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-12-01 20:59:56.304 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-12-01 20:59:56.402 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-12-01 20:59:56.487 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2024-12-01 20:59:56.578 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2024-12-01 20:59:57.076 [main] INFO  com.example.TrafficApplication - Started TrafficApplication in 2.175 seconds (JVM running for 2.762)
+2024-12-01 21:00:03.626 [http-nio-8082-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-01 21:27:49.125 [main] INFO  com.example.TrafficApplicationTests - Starting TrafficApplicationTests using Java 23 on LAPTOP-QL7EKIO9 with PID 23504 (started by yolo in D:\JAVA\CODE\Traffic)
+2024-12-01 21:27:49.125 [main] INFO  com.example.TrafficApplicationTests - The following 1 profile is active: "dev"
+2024-12-01 21:27:50.004 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2024-12-01 21:27:50.255 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2024-12-01 21:27:51.444 [main] INFO  com.example.TrafficApplicationTests - Started TrafficApplicationTests in 2.729 seconds (JVM running for 3.595)
+2024-12-01 21:27:52.586 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2024-12-01 21:27:52.586 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2024-12-01 21:28:47.082 [main] INFO  com.example.TrafficApplicationTests - Starting TrafficApplicationTests using Java 23 on LAPTOP-QL7EKIO9 with PID 20104 (started by yolo in D:\JAVA\CODE\Traffic)
+2024-12-01 21:28:47.082 [main] INFO  com.example.TrafficApplicationTests - The following 1 profile is active: "dev"
+2024-12-01 21:28:47.954 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2024-12-01 21:28:48.195 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2024-12-01 21:28:49.398 [main] INFO  com.example.TrafficApplicationTests - Started TrafficApplicationTests in 2.705 seconds (JVM running for 3.524)
+2024-12-01 21:28:49.683 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2024-12-01 21:28:49.683 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2024-12-01 21:30:14.059 [main] INFO  com.example.TrafficApplicationTests - Starting TrafficApplicationTests using Java 23 on LAPTOP-QL7EKIO9 with PID 23688 (started by yolo in D:\JAVA\CODE\Traffic)
+2024-12-01 21:30:14.059 [main] INFO  com.example.TrafficApplicationTests - The following 1 profile is active: "dev"
+2024-12-01 21:30:14.897 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2024-12-01 21:30:15.151 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2024-12-01 21:30:16.450 [main] INFO  com.example.TrafficApplicationTests - Started TrafficApplicationTests in 2.76 seconds (JVM running for 3.58)
+2024-12-01 21:30:17.412 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2024-12-01 21:30:17.412 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2024-12-01 21:32:27.604 [main] INFO  com.example.TrafficApplicationTests - Starting TrafficApplicationTests using Java 23 on LAPTOP-QL7EKIO9 with PID 15108 (started by yolo in D:\JAVA\CODE\Traffic)
+2024-12-01 21:32:27.604 [main] INFO  com.example.TrafficApplicationTests - The following 1 profile is active: "dev"
+2024-12-01 21:32:28.474 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2024-12-01 21:32:28.697 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2024-12-01 21:32:29.821 [main] INFO  com.example.TrafficApplicationTests - Started TrafficApplicationTests in 2.602 seconds (JVM running for 3.404)
+2024-12-01 21:32:30.918 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2024-12-01 21:32:30.934 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2024-12-01 21:35:56.869 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2024-12-01 21:35:56.873 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2024-12-01 21:39:35.024 [main] INFO  com.example.TrafficApplicationTests - Starting TrafficApplicationTests using Java 23 on LAPTOP-QL7EKIO9 with PID 7872 (started by yolo in D:\JAVA\CODE\Traffic)
+2024-12-01 21:39:35.024 [main] INFO  com.example.TrafficApplicationTests - The following 1 profile is active: "dev"
+2024-12-01 21:39:35.886 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2024-12-01 21:39:36.158 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2024-12-01 21:39:37.347 [main] INFO  com.example.TrafficApplicationTests - Started TrafficApplicationTests in 2.702 seconds (JVM running for 3.515)
+2024-12-01 21:39:38.528 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2024-12-01 21:39:38.539 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2024-12-01 21:40:01.418 [main] INFO  com.example.TrafficApplication - Starting TrafficApplication using Java 23 on LAPTOP-QL7EKIO9 with PID 24268 (D:\JAVA\CODE\Traffic\target\classes started by yolo in D:\JAVA\CODE\Traffic)
+2024-12-01 21:40:01.421 [main] INFO  com.example.TrafficApplication - The following 1 profile is active: "dev"
+2024-12-01 21:40:02.295 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-12-01 21:40:02.295 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-12-01 21:40:02.387 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-12-01 21:40:02.482 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2024-12-01 21:40:02.595 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2024-12-01 21:40:03.094 [main] INFO  com.example.TrafficApplication - Started TrafficApplication in 2.06 seconds (JVM running for 2.538)
+2024-12-01 21:40:13.502 [http-nio-8082-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-01 21:40:31.758 [http-nio-8082-exec-5] WARN  o.s.w.s.m.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'PUT' not supported]
+2024-12-01 21:49:29.107 [http-nio-8082-exec-9] ERROR o.a.c.c.C.[.[localhost].[/].[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.dao.DuplicateKeyException: 
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '3369884494@qq.com' for key 'Email'
+### The error may exist in com/example/mapper/UserMapper.java (best guess)
+### The error may involve com.example.mapper.UserMapper.addUser-Inline
+### The error occurred while setting parameters
+### SQL: insert into Users(Username, Password, Email, Role, Status, CreatedAt) values(?, ?, ?, ?, ?, ?)
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '3369884494@qq.com' for key 'Email'
+; Duplicate entry '3369884494@qq.com' for key 'Email'; nested exception is java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '3369884494@qq.com' for key 'Email'] with root cause
+java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '3369884494@qq.com' for key 'Email'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:118)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:916)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:354)
+	at com.alibaba.druid.pool.DruidPooledPreparedStatement.execute(DruidPooledPreparedStatement.java:483)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:48)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:75)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:50)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:197)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:184)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:425)
+	at jdk.proxy2/jdk.proxy2.$Proxy64.insert(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:272)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:62)
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:142)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
+	at jdk.proxy2/jdk.proxy2.$Proxy69.addUser(Unknown Source)
+	at com.example.service.impl.UserServiceImpl.addUser(UserServiceImpl.java:61)
+	at com.example.controller.UserController.addUser(UserController.java:42)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1071)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:964)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:696)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:779)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+2024-12-01 22:27:48.358 [main] INFO  com.example.TrafficApplicationTests - Starting TrafficApplicationTests using Java 23 on LAPTOP-QL7EKIO9 with PID 20648 (started by yolo in D:\JAVA\CODE\Traffic)
+2024-12-01 22:27:48.358 [main] INFO  com.example.TrafficApplicationTests - The following 1 profile is active: "dev"
+2024-12-01 22:27:49.200 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2024-12-01 22:27:49.496 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2024-12-01 22:27:50.745 [main] INFO  com.example.TrafficApplicationTests - Started TrafficApplicationTests in 2.796 seconds (JVM running for 3.652)
+2024-12-01 22:27:51.851 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2024-12-01 22:27:51.860 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2024-12-01 22:28:49.728 [main] INFO  com.example.TrafficApplicationTests - Starting TrafficApplicationTests using Java 23 on LAPTOP-QL7EKIO9 with PID 19008 (started by yolo in D:\JAVA\CODE\Traffic)
+2024-12-01 22:28:49.728 [main] INFO  com.example.TrafficApplicationTests - The following 1 profile is active: "dev"
+2024-12-01 22:28:50.611 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2024-12-01 22:28:50.875 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2024-12-01 22:28:52.205 [main] INFO  com.example.TrafficApplicationTests - Started TrafficApplicationTests in 2.854 seconds (JVM running for 3.68)
+2024-12-01 22:28:53.172 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2024-12-01 22:28:53.181 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2024-12-01 22:28:59.775 [main] INFO  com.example.TrafficApplicationTests - Starting TrafficApplicationTests using Java 23 on LAPTOP-QL7EKIO9 with PID 1740 (started by yolo in D:\JAVA\CODE\Traffic)
+2024-12-01 22:28:59.777 [main] INFO  com.example.TrafficApplicationTests - The following 1 profile is active: "dev"
+2024-12-01 22:29:00.666 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2024-12-01 22:29:00.955 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2024-12-01 22:29:02.195 [main] INFO  com.example.TrafficApplicationTests - Started TrafficApplicationTests in 2.828 seconds (JVM running for 3.638)
+2024-12-01 22:29:03.203 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2024-12-01 22:29:03.207 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2024-12-01 22:30:58.978 [main] INFO  com.example.TrafficApplicationTests - Starting TrafficApplicationTests using Java 23 on LAPTOP-QL7EKIO9 with PID 24752 (started by yolo in D:\JAVA\CODE\Traffic)
+2024-12-01 22:30:58.978 [main] INFO  com.example.TrafficApplicationTests - The following 1 profile is active: "dev"
+2024-12-01 22:30:59.955 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2024-12-01 22:31:00.233 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2024-12-01 22:31:01.736 [main] INFO  com.example.TrafficApplicationTests - Started TrafficApplicationTests in 3.206 seconds (JVM running for 4.236)
+2024-12-01 22:31:03.017 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2024-12-01 22:31:03.024 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2024-12-01 22:31:22.336 [main] INFO  com.example.TrafficApplicationTests - Starting TrafficApplicationTests using Java 23 on LAPTOP-QL7EKIO9 with PID 9236 (started by yolo in D:\JAVA\CODE\Traffic)
+2024-12-01 22:31:22.336 [main] INFO  com.example.TrafficApplicationTests - The following 1 profile is active: "dev"
+2024-12-01 22:31:23.281 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2024-12-01 22:31:23.552 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2024-12-01 22:31:24.885 [main] INFO  com.example.TrafficApplicationTests - Started TrafficApplicationTests in 2.956 seconds (JVM running for 3.842)
+2024-12-01 22:31:25.888 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2024-12-01 22:31:25.900 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2024-12-01 22:31:32.219 [main] INFO  com.example.TrafficApplicationTests - Starting TrafficApplicationTests using Java 23 on LAPTOP-QL7EKIO9 with PID 10104 (started by yolo in D:\JAVA\CODE\Traffic)
+2024-12-01 22:31:32.219 [main] INFO  com.example.TrafficApplicationTests - The following 1 profile is active: "dev"
+2024-12-01 22:31:33.308 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2024-12-01 22:31:33.607 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2024-12-01 22:31:35.072 [main] INFO  com.example.TrafficApplicationTests - Started TrafficApplicationTests in 3.232 seconds (JVM running for 4.094)
+2024-12-01 22:31:36.249 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2024-12-01 22:31:36.258 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2024-12-01 22:32:45.963 [main] INFO  com.example.TrafficApplicationTests - Starting TrafficApplicationTests using Java 23 on LAPTOP-QL7EKIO9 with PID 25864 (started by yolo in D:\JAVA\CODE\Traffic)
+2024-12-01 22:32:45.967 [main] INFO  com.example.TrafficApplicationTests - The following 1 profile is active: "dev"
+2024-12-01 22:32:46.985 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2024-12-01 22:32:47.270 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2024-12-01 22:32:48.684 [main] INFO  com.example.TrafficApplicationTests - Started TrafficApplicationTests in 3.174 seconds (JVM running for 4.011)
+2024-12-01 22:32:49.722 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2024-12-01 22:32:49.728 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2024-12-01 23:15:23.799 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2024-12-01 23:15:23.807 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2024-12-01 23:15:36.015 [main] INFO  com.example.TrafficApplicationTests - Starting TrafficApplicationTests using Java 23 on LAPTOP-QL7EKIO9 with PID 9820 (started by yolo in D:\JAVA\CODE\Traffic)
+2024-12-01 23:15:36.018 [main] INFO  com.example.TrafficApplicationTests - The following 1 profile is active: "dev"
+2024-12-01 23:15:36.866 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2024-12-01 23:15:37.142 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2024-12-01 23:15:38.629 [main] INFO  com.example.TrafficApplicationTests - Started TrafficApplicationTests in 3.034 seconds (JVM running for 3.876)
+2024-12-01 23:15:39.760 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2024-12-01 23:15:39.773 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2024-12-01 23:15:46.468 [main] INFO  com.example.TrafficApplication - Starting TrafficApplication using Java 23 on LAPTOP-QL7EKIO9 with PID 26648 (D:\JAVA\CODE\Traffic\target\classes started by yolo in D:\JAVA\CODE\Traffic)
+2024-12-01 23:15:46.470 [main] INFO  com.example.TrafficApplication - The following 1 profile is active: "dev"
+2024-12-01 23:15:47.344 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-12-01 23:15:47.344 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-12-01 23:15:47.421 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-12-01 23:15:47.494 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2024-12-01 23:15:47.585 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2024-12-01 23:15:48.064 [main] INFO  com.example.TrafficApplication - Started TrafficApplication in 1.967 seconds (JVM running for 2.438)
+2024-12-01 23:47:16.041 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2024-12-01 23:47:16.041 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed

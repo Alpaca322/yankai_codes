@@ -1,0 +1,623 @@
+2025-01-13 00:28:08.751 [main] INFO  com.example.TrafficApplication - Starting TrafficApplication using Java 23 on LAPTOP-QL7EKIO9 with PID 14928 (D:\JAVA\CODE\Traffic\target\classes started by yolo in D:\JAVA\CODE\Traffic)
+2025-01-13 00:28:08.754 [main] INFO  com.example.TrafficApplication - The following 1 profile is active: "dev"
+2025-01-13 00:28:10.192 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-01-13 00:28:10.193 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2025-01-13 00:28:10.351 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-01-13 00:28:10.472 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2025-01-13 00:28:10.586 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2025-01-13 00:28:11.948 [main] INFO  com.example.TrafficApplication - Started TrafficApplication in 3.682 seconds (JVM running for 4.289)
+2025-01-13 00:28:20.231 [http-nio-8082-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-13 00:28:59.216 [http-nio-8082-exec-8] INFO  com.example.controller.ReportController - 下载报告
+2025-01-13 00:29:14.178 [http-nio-8082-exec-9] INFO  com.example.controller.LogController - 获取日志列表
+2025-01-13 00:29:15.989 [http-nio-8082-exec-10] INFO  com.example.controller.LogController - 获取日志详情：2025-01-12
+2025-01-13 00:58:44.308 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2025-01-13 00:58:44.315 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2025-01-13 00:59:58.662 [main] INFO  com.example.TrafficApplication - Starting TrafficApplication using Java 23 on LAPTOP-QL7EKIO9 with PID 27380 (D:\JAVA\CODE\Traffic\target\classes started by yolo in D:\JAVA\CODE\Traffic)
+2025-01-13 00:59:58.666 [main] INFO  com.example.TrafficApplication - The following 1 profile is active: "dev"
+2025-01-13 00:59:59.865 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-01-13 00:59:59.866 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2025-01-13 00:59:59.970 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-01-13 01:00:00.059 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2025-01-13 01:00:00.159 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2025-01-13 01:00:01.375 [main] INFO  com.example.TrafficApplication - Started TrafficApplication in 3.119 seconds (JVM running for 3.661)
+2025-01-13 01:00:05.990 [http-nio-8082-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-13 01:00:19.634 [http-nio-8082-exec-3] INFO  com.example.controller.TrafficFLowController - 添加交通流量
+2025-01-13 01:00:30.370 [http-nio-8082-exec-4] INFO  com.example.controller.TrafficFLowController - 添加交通流量
+2025-01-13 01:00:31.085 [http-nio-8082-exec-4] ERROR o.a.c.c.C.[.[localhost].[/].[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.reflection.ReflectionException: There is no getter for property named 'trafficFlow' in 'class com.example.entity.TrafficFlow'] with root cause
+org.apache.ibatis.reflection.ReflectionException: There is no getter for property named 'trafficFlow' in 'class com.example.entity.TrafficFlow'
+	at org.apache.ibatis.reflection.Reflector.getGetInvoker(Reflector.java:387)
+	at org.apache.ibatis.reflection.MetaClass.getGetInvoker(MetaClass.java:162)
+	at org.apache.ibatis.reflection.wrapper.BeanWrapper.getBeanProperty(BeanWrapper.java:159)
+	at org.apache.ibatis.reflection.wrapper.BeanWrapper.get(BeanWrapper.java:49)
+	at org.apache.ibatis.reflection.MetaObject.getValue(MetaObject.java:116)
+	at org.apache.ibatis.reflection.MetaObject.metaObjectForProperty(MetaObject.java:144)
+	at org.apache.ibatis.reflection.MetaObject.getValue(MetaObject.java:118)
+	at org.apache.ibatis.scripting.defaults.DefaultParameterHandler.setParameters(DefaultParameterHandler.java:79)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.parameterize(PreparedStatementHandler.java:97)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.parameterize(RoutingStatementHandler.java:65)
+	at org.apache.ibatis.executor.SimpleExecutor.prepareStatement(SimpleExecutor.java:91)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:49)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:61)
+	at jdk.proxy2/jdk.proxy2.$Proxy128.update(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:197)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:184)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:425)
+	at jdk.proxy2/jdk.proxy2.$Proxy81.insert(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:272)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:62)
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:142)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
+	at jdk.proxy2/jdk.proxy2.$Proxy87.addFlow(Unknown Source)
+	at com.example.service.impl.TrafficFlowServiceImpl.addTrafficFlow(TrafficFlowServiceImpl.java:45)
+	at com.example.controller.TrafficFLowController.addTrafficFlow(TrafficFLowController.java:33)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1071)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:964)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:696)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:779)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+2025-01-13 01:04:14.648 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2025-01-13 01:04:14.655 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2025-01-13 01:04:18.447 [main] INFO  com.example.TrafficApplication - Starting TrafficApplication using Java 23 on LAPTOP-QL7EKIO9 with PID 25008 (D:\JAVA\CODE\Traffic\target\classes started by yolo in D:\JAVA\CODE\Traffic)
+2025-01-13 01:04:18.450 [main] INFO  com.example.TrafficApplication - The following 1 profile is active: "dev"
+2025-01-13 01:04:19.755 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-01-13 01:04:19.755 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2025-01-13 01:04:19.850 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-01-13 01:04:19.938 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2025-01-13 01:04:20.050 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2025-01-13 01:04:21.509 [main] INFO  com.example.TrafficApplication - Started TrafficApplication in 3.474 seconds (JVM running for 4.01)
+2025-01-13 01:08:57.333 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2025-01-13 01:08:57.335 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2025-01-13 01:09:01.143 [main] INFO  com.example.TrafficApplication - Starting TrafficApplication using Java 23 on LAPTOP-QL7EKIO9 with PID 23000 (D:\JAVA\CODE\Traffic\target\classes started by yolo in D:\JAVA\CODE\Traffic)
+2025-01-13 01:09:01.151 [main] INFO  com.example.TrafficApplication - The following 1 profile is active: "dev"
+2025-01-13 01:09:02.551 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-01-13 01:09:02.551 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2025-01-13 01:09:02.749 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-01-13 01:09:02.822 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2025-01-13 01:09:02.919 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2025-01-13 01:09:04.392 [main] INFO  com.example.TrafficApplication - Started TrafficApplication in 3.664 seconds (JVM running for 4.212)
+2025-01-13 01:09:08.902 [http-nio-8082-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-13 01:09:13.774 [http-nio-8082-exec-10] INFO  com.example.controller.TrafficFLowController - 添加交通流量
+2025-01-13 01:09:24.552 [http-nio-8082-exec-4] WARN  o.s.w.s.m.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public com.example.utils.Result com.example.controller.TrafficFLowController.getTrafficFlow(com.example.dto.TrafficFlowDTO)]
+2025-01-13 01:09:39.997 [http-nio-8082-exec-6] WARN  o.s.w.s.m.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public com.example.utils.Result com.example.controller.TrafficFLowController.getTrafficFlow(com.example.dto.TrafficFlowDTO)]
+2025-01-13 01:09:59.282 [http-nio-8082-exec-7] INFO  com.example.controller.TrafficFLowController - 添加交通流量
+2025-01-13 01:14:34.091 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2025-01-13 01:14:34.096 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2025-01-13 01:14:37.952 [main] INFO  com.example.TrafficApplication - Starting TrafficApplication using Java 23 on LAPTOP-QL7EKIO9 with PID 3060 (D:\JAVA\CODE\Traffic\target\classes started by yolo in D:\JAVA\CODE\Traffic)
+2025-01-13 01:14:37.955 [main] INFO  com.example.TrafficApplication - The following 1 profile is active: "dev"
+2025-01-13 01:14:39.662 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-01-13 01:14:39.662 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2025-01-13 01:14:39.842 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-01-13 01:14:39.937 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2025-01-13 01:14:40.034 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2025-01-13 01:14:41.566 [main] INFO  com.example.TrafficApplication - Started TrafficApplication in 4.054 seconds (JVM running for 4.598)
+2025-01-13 01:16:19.466 [http-nio-8082-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-13 01:16:25.962 [http-nio-8082-exec-10] INFO  com.example.controller.TrafficFLowController - 获取交通流量
+2025-01-13 01:17:32.638 [http-nio-8082-exec-6] INFO  com.example.controller.TrafficFLowController - 添加交通流量
+2025-01-13 01:17:44.723 [http-nio-8082-exec-3] INFO  com.example.controller.TrafficFLowController - 添加交通流量
+2025-01-13 01:19:39.219 [http-nio-8082-exec-4] INFO  com.example.controller.TrafficFLowController - 获取交通流量
+2025-01-13 01:19:41.393 [http-nio-8082-exec-1] INFO  com.example.controller.TrafficFLowController - 获取交通流量
+2025-01-13 01:19:42.217 [http-nio-8082-exec-2] INFO  com.example.controller.TrafficFLowController - 获取交通流量
+2025-01-13 01:19:47.954 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2025-01-13 01:19:47.970 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2025-01-13 01:19:50.475 [main] INFO  com.example.TrafficApplication - Starting TrafficApplication using Java 23 on LAPTOP-QL7EKIO9 with PID 24120 (D:\JAVA\CODE\Traffic\target\classes started by yolo in D:\JAVA\CODE\Traffic)
+2025-01-13 01:19:50.479 [main] INFO  com.example.TrafficApplication - The following 1 profile is active: "dev"
+2025-01-13 01:19:51.800 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-01-13 01:19:51.800 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2025-01-13 01:19:51.910 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-01-13 01:19:51.981 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2025-01-13 01:19:52.108 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2025-01-13 01:19:53.786 [main] INFO  com.example.TrafficApplication - Started TrafficApplication in 3.812 seconds (JVM running for 4.362)
+2025-01-13 01:20:09.309 [http-nio-8082-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-13 01:20:12.835 [http-nio-8082-exec-4] INFO  com.example.controller.TrafficFLowController - 获取交通流量
+2025-01-13 01:33:39.717 [http-nio-8082-exec-10] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /traffic/flow
+2025-01-13 01:34:44.730 [http-nio-8082-exec-3] WARN  o.s.w.s.m.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public com.example.utils.Result com.example.controller.TrafficFLowController.getTrafficFlow(com.example.dto.TrafficFlowDTO)]
+2025-01-13 01:36:49.684 [http-nio-8082-exec-4] WARN  o.s.w.s.m.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public com.example.utils.Result com.example.controller.TrafficFLowController.getTrafficFlow(com.example.dto.TrafficFlowDTO)]
+2025-01-13 01:37:26.823 [http-nio-8082-exec-6] WARN  o.s.w.s.m.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public com.example.utils.Result com.example.controller.TrafficFLowController.getTrafficFlow(com.example.dto.TrafficFlowDTO)]
+2025-01-13 01:37:32.910 [http-nio-8082-exec-7] WARN  o.s.w.s.m.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public com.example.utils.Result com.example.controller.TrafficFLowController.getTrafficFlow(com.example.dto.TrafficFlowDTO)]
+2025-01-13 01:38:06.242 [http-nio-8082-exec-10] WARN  o.s.w.s.m.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public com.example.utils.Result com.example.controller.TrafficFLowController.getTrafficFlow(com.example.dto.TrafficFlowDTO)]
+2025-01-13 01:38:12.900 [http-nio-8082-exec-3] INFO  com.example.controller.TrafficFLowController - 获取交通流量
+2025-01-13 01:38:18.202 [http-nio-8082-exec-4] INFO  com.example.controller.TrafficFLowController - 获取交通流量
+2025-01-13 01:38:24.014 [http-nio-8082-exec-8] INFO  com.example.controller.TrafficFLowController - 获取交通流量
+2025-01-13 01:46:45.746 [http-nio-8082-exec-1] INFO  com.example.controller.TrafficFLowController - 获取交通流量
+2025-01-13 01:46:53.619 [http-nio-8082-exec-2] INFO  com.example.controller.TrafficFLowController - 获取交通流量
+2025-01-13 01:48:53.547 [http-nio-8082-exec-9] INFO  com.example.controller.TrafficFLowController - 获取交通流量
+2025-01-13 01:48:53.636 [http-nio-8082-exec-7] WARN  o.s.w.s.m.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public com.example.utils.Result com.example.controller.TrafficFLowController.getTrafficFlow(com.example.dto.TrafficFlowDTO)]
+2025-01-13 01:49:30.819 [http-nio-8082-exec-1] INFO  com.example.controller.TrafficFLowController - 获取交通流量
+2025-01-13 01:49:41.102 [http-nio-8082-exec-2] INFO  com.example.controller.TrafficFLowController - 获取交通流量
+2025-01-13 01:50:17.263 [http-nio-8082-exec-5] INFO  com.example.controller.TrafficFLowController - 获取交通流量
+2025-01-13 01:50:32.430 [http-nio-8082-exec-8] INFO  com.example.controller.TrafficFLowController - 获取交通流量
+2025-01-13 01:50:40.136 [http-nio-8082-exec-7] INFO  com.example.controller.TrafficFLowController - 获取交通流量
+2025-01-13 01:52:43.191 [http-nio-8082-exec-1] INFO  com.example.controller.TrafficFLowController - 获取交通流量
+2025-01-13 01:53:03.507 [http-nio-8082-exec-4] INFO  com.example.controller.TrafficFLowController - 获取交通流量
+2025-01-13 01:58:11.756 [http-nio-8082-exec-8] INFO  com.example.controller.TrafficFLowController - 获取交通流量
+2025-01-13 01:59:14.323 [http-nio-8082-exec-7] INFO  com.example.controller.TrafficFLowController - 获取交通流量
+2025-01-13 01:59:30.045 [http-nio-8082-exec-6] INFO  com.example.controller.LogController - 获取日志列表
+2025-01-13 10:54:53.496 [main] INFO  com.example.TrafficApplication - Starting TrafficApplication using Java 23 on LAPTOP-QL7EKIO9 with PID 28816 (D:\JAVA\CODE\Traffic\target\classes started by yolo in D:\JAVA\CODE\Traffic)
+2025-01-13 10:54:53.501 [main] INFO  com.example.TrafficApplication - The following 1 profile is active: "dev"
+2025-01-13 10:54:54.798 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-01-13 10:54:54.799 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2025-01-13 10:54:54.899 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-01-13 10:54:54.968 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2025-01-13 10:54:55.088 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2025-01-13 10:54:56.296 [main] INFO  com.example.TrafficApplication - Started TrafficApplication in 3.387 seconds (JVM running for 4.272)
+2025-01-13 10:55:00.094 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2025-01-13 10:55:00.096 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2025-01-13 10:57:20.310 [main] INFO  com.example.TrafficApplication - Starting TrafficApplication using Java 23 on LAPTOP-QL7EKIO9 with PID 16596 (D:\JAVA\CODE\Traffic\target\classes started by yolo in D:\JAVA\CODE\Traffic)
+2025-01-13 10:57:20.315 [main] INFO  com.example.TrafficApplication - The following 1 profile is active: "dev"
+2025-01-13 10:57:21.583 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-01-13 10:57:21.583 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2025-01-13 10:57:21.689 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-01-13 10:57:21.772 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2025-01-13 10:57:21.865 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2025-01-13 10:57:23.148 [main] INFO  com.example.TrafficApplication - Started TrafficApplication in 3.369 seconds (JVM running for 4.278)
+2025-01-13 10:57:27.868 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2025-01-13 10:57:27.869 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2025-01-13 11:01:13.575 [main] INFO  com.example.TrafficApplication - Starting TrafficApplication using Java 23 on LAPTOP-QL7EKIO9 with PID 22128 (D:\JAVA\CODE\Traffic\target\classes started by yolo in D:\JAVA\CODE\Traffic)
+2025-01-13 11:01:13.579 [main] INFO  com.example.TrafficApplication - The following 1 profile is active: "dev"
+2025-01-13 11:01:14.831 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-01-13 11:01:14.831 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2025-01-13 11:01:14.942 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-01-13 11:01:15.057 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2025-01-13 11:01:15.153 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2025-01-13 11:01:16.712 [main] INFO  com.example.TrafficApplication - Started TrafficApplication in 3.55 seconds (JVM running for 4.368)
+2025-01-13 11:01:18.885 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2025-01-13 11:01:18.885 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2025-01-13 11:14:40.920 [main] INFO  com.example.TrafficApplication - Starting TrafficApplication using Java 23 on LAPTOP-QL7EKIO9 with PID 22620 (D:\JAVA\CODE\Traffic\target\classes started by yolo in D:\JAVA\CODE\Traffic)
+2025-01-13 11:14:40.920 [main] INFO  com.example.TrafficApplication - The following 1 profile is active: "dev"
+2025-01-13 11:14:42.501 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-01-13 11:14:42.501 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2025-01-13 11:14:42.631 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-01-13 11:14:42.727 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2025-01-13 11:14:42.837 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2025-01-13 11:14:44.492 [main] INFO  com.example.TrafficApplication - Started TrafficApplication in 4.081 seconds (JVM running for 4.907)
+2025-01-13 11:14:46.235 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2025-01-13 11:14:46.235 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2025-01-13 11:22:16.073 [main] INFO  com.example.TrafficApplication - Starting TrafficApplication using Java 23 on LAPTOP-QL7EKIO9 with PID 24536 (D:\JAVA\CODE\Traffic\target\classes started by yolo in D:\JAVA\CODE\Traffic)
+2025-01-13 11:22:16.081 [main] INFO  com.example.TrafficApplication - The following 1 profile is active: "dev"
+2025-01-13 11:22:17.521 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-01-13 11:22:17.521 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2025-01-13 11:22:17.709 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-01-13 11:22:17.799 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2025-01-13 11:22:17.922 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2025-01-13 11:22:19.309 [main] INFO  com.example.TrafficApplication - Started TrafficApplication in 3.674 seconds (JVM running for 4.247)
+2025-01-13 11:22:19.334 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2025-01-13 11:22:19.335 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2025-01-13 11:29:37.467 [main] INFO  com.example.TrafficApplication - Starting TrafficApplication using Java 23 on LAPTOP-QL7EKIO9 with PID 24908 (D:\JAVA\CODE\Traffic\target\classes started by yolo in D:\JAVA\CODE\Traffic)
+2025-01-13 11:29:37.467 [main] INFO  com.example.TrafficApplication - The following 1 profile is active: "dev"
+2025-01-13 11:29:38.822 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-01-13 11:29:38.823 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2025-01-13 11:29:38.991 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-01-13 11:29:39.073 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2025-01-13 11:29:39.180 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2025-01-13 11:29:40.516 [main] INFO  com.example.TrafficApplication - Started TrafficApplication in 3.495 seconds (JVM running for 4.376)
+2025-01-13 11:32:40.355 [http-nio-8082-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-13 11:32:41.522 [http-nio-8082-exec-2] ERROR o.a.c.c.C.[.[localhost].[/].[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.http.converter.HttpMessageConversionException: Type definition error: [simple type, class com.example.dto.TrafficFlowDTO]; nested exception is com.fasterxml.jackson.databind.exc.InvalidDefinitionException: Cannot construct instance of `com.example.dto.TrafficFlowDTO` (no Creators, like default constructor, exist): cannot deserialize from Object value (no delegate- or property-based Creator)
+ at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 1, column: 2]] with root cause
+com.fasterxml.jackson.databind.exc.InvalidDefinitionException: Cannot construct instance of `com.example.dto.TrafficFlowDTO` (no Creators, like default constructor, exist): cannot deserialize from Object value (no delegate- or property-based Creator)
+ at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 1, column: 2]
+	at com.fasterxml.jackson.databind.exc.InvalidDefinitionException.from(InvalidDefinitionException.java:67)
+	at com.fasterxml.jackson.databind.DeserializationContext.reportBadDefinition(DeserializationContext.java:1904)
+	at com.fasterxml.jackson.databind.DatabindContext.reportBadDefinition(DatabindContext.java:400)
+	at com.fasterxml.jackson.databind.DeserializationContext.handleMissingInstantiator(DeserializationContext.java:1349)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.deserializeFromObjectUsingNonDefault(BeanDeserializerBase.java:1415)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserializeFromObject(BeanDeserializer.java:352)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:185)
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:323)
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4674)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3682)
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.readJavaType(AbstractJackson2HttpMessageConverter.java:380)
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.read(AbstractJackson2HttpMessageConverter.java:343)
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodArgumentResolver.readWithMessageConverters(AbstractMessageConverterMethodArgumentResolver.java:185)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.readWithMessageConverters(RequestResponseBodyMethodProcessor.java:160)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.resolveArgument(RequestResponseBodyMethodProcessor.java:133)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:122)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:179)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:146)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1071)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:964)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:696)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:779)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+2025-01-13 11:32:52.039 [http-nio-8082-exec-4] ERROR o.a.c.c.C.[.[localhost].[/].[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.http.converter.HttpMessageConversionException: Type definition error: [simple type, class com.example.dto.TrafficFlowDTO]; nested exception is com.fasterxml.jackson.databind.exc.InvalidDefinitionException: Cannot construct instance of `com.example.dto.TrafficFlowDTO` (no Creators, like default constructor, exist): cannot deserialize from Object value (no delegate- or property-based Creator)
+ at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 1, column: 2]] with root cause
+com.fasterxml.jackson.databind.exc.InvalidDefinitionException: Cannot construct instance of `com.example.dto.TrafficFlowDTO` (no Creators, like default constructor, exist): cannot deserialize from Object value (no delegate- or property-based Creator)
+ at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 1, column: 2]
+	at com.fasterxml.jackson.databind.exc.InvalidDefinitionException.from(InvalidDefinitionException.java:67)
+	at com.fasterxml.jackson.databind.DeserializationContext.reportBadDefinition(DeserializationContext.java:1904)
+	at com.fasterxml.jackson.databind.DatabindContext.reportBadDefinition(DatabindContext.java:400)
+	at com.fasterxml.jackson.databind.DeserializationContext.handleMissingInstantiator(DeserializationContext.java:1349)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.deserializeFromObjectUsingNonDefault(BeanDeserializerBase.java:1415)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserializeFromObject(BeanDeserializer.java:352)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:185)
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:323)
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4674)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3682)
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.readJavaType(AbstractJackson2HttpMessageConverter.java:380)
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.read(AbstractJackson2HttpMessageConverter.java:343)
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodArgumentResolver.readWithMessageConverters(AbstractMessageConverterMethodArgumentResolver.java:185)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.readWithMessageConverters(RequestResponseBodyMethodProcessor.java:160)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.resolveArgument(RequestResponseBodyMethodProcessor.java:133)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:122)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:179)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:146)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1071)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:964)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:696)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:779)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+2025-01-13 11:33:23.323 [http-nio-8082-exec-6] ERROR o.a.c.c.C.[.[localhost].[/].[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.http.converter.HttpMessageConversionException: Type definition error: [simple type, class com.example.dto.TrafficFlowDTO]; nested exception is com.fasterxml.jackson.databind.exc.InvalidDefinitionException: Cannot construct instance of `com.example.dto.TrafficFlowDTO` (no Creators, like default constructor, exist): cannot deserialize from Object value (no delegate- or property-based Creator)
+ at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 1, column: 2]] with root cause
+com.fasterxml.jackson.databind.exc.InvalidDefinitionException: Cannot construct instance of `com.example.dto.TrafficFlowDTO` (no Creators, like default constructor, exist): cannot deserialize from Object value (no delegate- or property-based Creator)
+ at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 1, column: 2]
+	at com.fasterxml.jackson.databind.exc.InvalidDefinitionException.from(InvalidDefinitionException.java:67)
+	at com.fasterxml.jackson.databind.DeserializationContext.reportBadDefinition(DeserializationContext.java:1904)
+	at com.fasterxml.jackson.databind.DatabindContext.reportBadDefinition(DatabindContext.java:400)
+	at com.fasterxml.jackson.databind.DeserializationContext.handleMissingInstantiator(DeserializationContext.java:1349)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.deserializeFromObjectUsingNonDefault(BeanDeserializerBase.java:1415)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserializeFromObject(BeanDeserializer.java:352)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:185)
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:323)
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4674)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3682)
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.readJavaType(AbstractJackson2HttpMessageConverter.java:380)
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.read(AbstractJackson2HttpMessageConverter.java:343)
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodArgumentResolver.readWithMessageConverters(AbstractMessageConverterMethodArgumentResolver.java:185)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.readWithMessageConverters(RequestResponseBodyMethodProcessor.java:160)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.resolveArgument(RequestResponseBodyMethodProcessor.java:133)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:122)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:179)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:146)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1071)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:964)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:696)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:779)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+2025-01-13 11:34:17.017 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2025-01-13 11:34:17.037 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2025-01-13 11:34:32.283 [main] INFO  com.example.TrafficApplication - Starting TrafficApplication using Java 23 on LAPTOP-QL7EKIO9 with PID 13964 (D:\JAVA\CODE\Traffic\target\classes started by yolo in D:\JAVA\CODE\Traffic)
+2025-01-13 11:34:32.294 [main] INFO  com.example.TrafficApplication - The following 1 profile is active: "dev"
+2025-01-13 11:34:33.885 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-01-13 11:34:33.885 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2025-01-13 11:34:34.054 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-01-13 11:34:34.158 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2025-01-13 11:34:34.291 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2025-01-13 11:34:35.930 [main] INFO  com.example.TrafficApplication - Started TrafficApplication in 4.092 seconds (JVM running for 4.885)
+2025-01-13 11:34:45.264 [http-nio-8082-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-13 11:34:46.095 [http-nio-8082-exec-2] ERROR o.a.c.c.C.[.[localhost].[/].[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.http.converter.HttpMessageConversionException: Type definition error: [simple type, class com.example.dto.TrafficFlowDTO]; nested exception is com.fasterxml.jackson.databind.exc.InvalidDefinitionException: Cannot construct instance of `com.example.dto.TrafficFlowDTO` (no Creators, like default constructor, exist): cannot deserialize from Object value (no delegate- or property-based Creator)
+ at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 1, column: 2]] with root cause
+com.fasterxml.jackson.databind.exc.InvalidDefinitionException: Cannot construct instance of `com.example.dto.TrafficFlowDTO` (no Creators, like default constructor, exist): cannot deserialize from Object value (no delegate- or property-based Creator)
+ at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 1, column: 2]
+	at com.fasterxml.jackson.databind.exc.InvalidDefinitionException.from(InvalidDefinitionException.java:67)
+	at com.fasterxml.jackson.databind.DeserializationContext.reportBadDefinition(DeserializationContext.java:1904)
+	at com.fasterxml.jackson.databind.DatabindContext.reportBadDefinition(DatabindContext.java:400)
+	at com.fasterxml.jackson.databind.DeserializationContext.handleMissingInstantiator(DeserializationContext.java:1349)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.deserializeFromObjectUsingNonDefault(BeanDeserializerBase.java:1415)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserializeFromObject(BeanDeserializer.java:352)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:185)
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:323)
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4674)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3682)
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.readJavaType(AbstractJackson2HttpMessageConverter.java:380)
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.read(AbstractJackson2HttpMessageConverter.java:343)
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodArgumentResolver.readWithMessageConverters(AbstractMessageConverterMethodArgumentResolver.java:185)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.readWithMessageConverters(RequestResponseBodyMethodProcessor.java:160)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.resolveArgument(RequestResponseBodyMethodProcessor.java:133)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:122)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:179)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:146)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1071)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:964)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:696)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:779)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+2025-01-13 11:35:25.397 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2025-01-13 11:35:25.406 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2025-01-13 11:35:30.330 [main] INFO  com.example.TrafficApplication - Starting TrafficApplication using Java 23 on LAPTOP-QL7EKIO9 with PID 24736 (D:\JAVA\CODE\Traffic\target\classes started by yolo in D:\JAVA\CODE\Traffic)
+2025-01-13 11:35:30.334 [main] INFO  com.example.TrafficApplication - The following 1 profile is active: "dev"
+2025-01-13 11:35:31.272 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.example.mapper]' package. Please check your configuration.
+2025-01-13 11:35:31.754 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-01-13 11:35:31.754 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2025-01-13 11:35:31.973 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-01-13 11:35:32.613 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2025-01-13 11:35:32.724 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2025-01-13 11:35:32.955 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'documentationPluginsBootstrapper'; nested exception is java.lang.NullPointerException: Cannot invoke "org.springframework.web.servlet.mvc.condition.PatternsRequestCondition.getPatterns()" because "this.condition" is null
+2025-01-13 11:35:32.956 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2025-01-13 11:35:32.957 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2025-01-13 11:35:32.966 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2025-01-13 11:35:33.007 [main] ERROR org.springframework.boot.SpringApplication - Application run failed
+org.springframework.context.ApplicationContextException: Failed to start bean 'documentationPluginsBootstrapper'; nested exception is java.lang.NullPointerException: Cannot invoke "org.springframework.web.servlet.mvc.condition.PatternsRequestCondition.getPatterns()" because "this.condition" is null
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:181)
+	at org.springframework.context.support.DefaultLifecycleProcessor.access$200(DefaultLifecycleProcessor.java:54)
+	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:356)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:155)
+	at org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:123)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:935)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:586)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:745)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:420)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1317)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at com.example.TrafficApplication.main(TrafficApplication.java:17)
+Caused by: java.lang.NullPointerException: Cannot invoke "org.springframework.web.servlet.mvc.condition.PatternsRequestCondition.getPatterns()" because "this.condition" is null
+	at springfox.documentation.spring.web.WebMvcPatternsRequestConditionWrapper.getPatterns(WebMvcPatternsRequestConditionWrapper.java:56)
+	at springfox.documentation.RequestHandler.sortedPaths(RequestHandler.java:113)
+	at springfox.documentation.spi.service.contexts.Orderings.lambda$byPatternsCondition$3(Orderings.java:89)
+	at java.base/java.util.Comparator.lambda$comparing$77a9974f$1(Comparator.java:473)
+	at java.base/java.util.TimSort.countRunAndMakeAscending(TimSort.java:355)
+	at java.base/java.util.TimSort.sort(TimSort.java:220)
+	at java.base/java.util.Arrays.sort(Arrays.java:1307)
+	at java.base/java.util.ArrayList.sort(ArrayList.java:1805)
+	at java.base/java.util.stream.SortedOps$RefSortingSink.end(SortedOps.java:392)
+	at java.base/java.util.stream.Sink$ChainedReference.end(Sink.java:261)
+	at java.base/java.util.stream.ReferencePipeline$7$1FlatMap.end(ReferencePipeline.java:285)
+	at java.base/java.util.stream.Sink$ChainedReference.end(Sink.java:261)
+	at java.base/java.util.stream.Sink$ChainedReference.end(Sink.java:261)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:571)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:727)
+	at springfox.documentation.spring.web.plugins.WebMvcRequestHandlerProvider.requestHandlers(WebMvcRequestHandlerProvider.java:81)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:215)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1709)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:570)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:727)
+	at springfox.documentation.spring.web.plugins.AbstractDocumentationPluginsBootstrapper.withDefaults(AbstractDocumentationPluginsBootstrapper.java:107)
+	at springfox.documentation.spring.web.plugins.AbstractDocumentationPluginsBootstrapper.buildContext(AbstractDocumentationPluginsBootstrapper.java:91)
+	at springfox.documentation.spring.web.plugins.AbstractDocumentationPluginsBootstrapper.bootstrapDocumentationPlugins(AbstractDocumentationPluginsBootstrapper.java:82)
+	at springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:100)
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:178)
+	... 14 common frames omitted
+2025-01-13 11:35:50.828 [main] INFO  com.example.TrafficApplication - Starting TrafficApplication using Java 23 on LAPTOP-QL7EKIO9 with PID 28124 (D:\JAVA\CODE\Traffic\target\classes started by yolo in D:\JAVA\CODE\Traffic)
+2025-01-13 11:35:50.837 [main] INFO  com.example.TrafficApplication - The following 1 profile is active: "dev"
+2025-01-13 11:35:52.350 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-01-13 11:35:52.351 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2025-01-13 11:35:52.540 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-01-13 11:35:52.632 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2025-01-13 11:35:52.757 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2025-01-13 11:35:54.133 [main] INFO  com.example.TrafficApplication - Started TrafficApplication in 3.729 seconds (JVM running for 4.545)
+2025-01-13 11:36:03.700 [http-nio-8082-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-13 11:36:17.253 [http-nio-8082-exec-7] INFO  com.example.controller.LogController - 获取日志列表
+2025-01-13 11:36:23.991 [http-nio-8082-exec-1] ERROR o.a.c.c.C.[.[localhost].[/].[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.http.converter.HttpMessageConversionException: Type definition error: [simple type, class com.example.dto.TrafficFlowDTO]; nested exception is com.fasterxml.jackson.databind.exc.InvalidDefinitionException: Cannot construct instance of `com.example.dto.TrafficFlowDTO` (no Creators, like default constructor, exist): cannot deserialize from Object value (no delegate- or property-based Creator)
+ at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 1, column: 2]] with root cause
+com.fasterxml.jackson.databind.exc.InvalidDefinitionException: Cannot construct instance of `com.example.dto.TrafficFlowDTO` (no Creators, like default constructor, exist): cannot deserialize from Object value (no delegate- or property-based Creator)
+ at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 1, column: 2]
+	at com.fasterxml.jackson.databind.exc.InvalidDefinitionException.from(InvalidDefinitionException.java:67)
+	at com.fasterxml.jackson.databind.DeserializationContext.reportBadDefinition(DeserializationContext.java:1904)
+	at com.fasterxml.jackson.databind.DatabindContext.reportBadDefinition(DatabindContext.java:400)
+	at com.fasterxml.jackson.databind.DeserializationContext.handleMissingInstantiator(DeserializationContext.java:1349)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.deserializeFromObjectUsingNonDefault(BeanDeserializerBase.java:1415)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserializeFromObject(BeanDeserializer.java:352)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:185)
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:323)
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4674)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3682)
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.readJavaType(AbstractJackson2HttpMessageConverter.java:380)
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.read(AbstractJackson2HttpMessageConverter.java:343)
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodArgumentResolver.readWithMessageConverters(AbstractMessageConverterMethodArgumentResolver.java:185)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.readWithMessageConverters(RequestResponseBodyMethodProcessor.java:160)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.resolveArgument(RequestResponseBodyMethodProcessor.java:133)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:122)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:179)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:146)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1071)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:964)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:696)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:779)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+2025-01-13 11:39:33.885 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2025-01-13 11:39:33.890 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2025-01-13 11:39:39.328 [main] INFO  com.example.TrafficApplication - Starting TrafficApplication using Java 23 on LAPTOP-QL7EKIO9 with PID 26928 (D:\JAVA\CODE\Traffic\target\classes started by yolo in D:\JAVA\CODE\Traffic)
+2025-01-13 11:39:39.328 [main] INFO  com.example.TrafficApplication - The following 1 profile is active: "dev"
+2025-01-13 11:39:40.721 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-01-13 11:39:40.722 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2025-01-13 11:39:40.911 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-01-13 11:39:40.998 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2025-01-13 11:39:41.103 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2025-01-13 11:39:42.717 [main] INFO  com.example.TrafficApplication - Started TrafficApplication in 3.82 seconds (JVM running for 4.412)
+2025-01-13 11:39:50.970 [http-nio-8082-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-13 11:39:51.041 [http-nio-8082-exec-1] INFO  com.example.controller.TrafficFLowController - 获取交通流量
+2025-01-13 11:40:03.601 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2025-01-13 11:40:03.607 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed

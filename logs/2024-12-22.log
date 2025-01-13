@@ -1,0 +1,20 @@
+2024-12-22 21:42:46.118 [main] INFO  com.example.TrafficApplication - Starting TrafficApplication using Java 23 on LAPTOP-QL7EKIO9 with PID 13132 (D:\JAVA\CODE\Traffic\target\classes started by yolo in D:\JAVA\CODE\Traffic)
+2024-12-22 21:42:46.121 [main] INFO  com.example.TrafficApplication - The following 1 profile is active: "dev"
+2024-12-22 21:42:47.223 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-12-22 21:42:47.224 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-12-22 21:42:47.319 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-12-22 21:42:47.408 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2024-12-22 21:42:47.540 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2024-12-22 21:42:48.138 [main] INFO  com.example.TrafficApplication - Started TrafficApplication in 2.601 seconds (JVM running for 3.346)
+2024-12-22 21:43:34.686 [http-nio-8082-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-22 23:28:09.430 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2024-12-22 23:28:09.434 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2024-12-22 23:40:43.017 [main] INFO  com.example.TrafficApplication - Starting TrafficApplication using Java 23 on LAPTOP-QL7EKIO9 with PID 22728 (D:\JAVA\CODE\Traffic\target\classes started by yolo in D:\JAVA\CODE\Traffic)
+2024-12-22 23:40:43.019 [main] INFO  com.example.TrafficApplication - The following 1 profile is active: "dev"
+2024-12-22 23:40:43.873 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-12-22 23:40:43.873 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-12-22 23:40:43.947 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-12-22 23:40:44.018 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2024-12-22 23:40:44.115 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2024-12-22 23:40:44.648 [main] INFO  com.example.TrafficApplication - Started TrafficApplication in 2.039 seconds (JVM running for 2.547)
+2024-12-22 23:41:44.001 [http-nio-8082-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
