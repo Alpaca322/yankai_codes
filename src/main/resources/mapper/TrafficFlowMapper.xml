@@ -5,13 +5,13 @@
         SELECT SUM(VehicleCount) FROM TrafficFlow
         <where>
             <if test="startTime != null">
-                AND create_time &gt;= #{startTime}
+                AND Timestamp &gt;= #{startTime}
             </if>
             <if test="endTime != null">
-                AND create_time &lt;= #{endTime}
+                AND Timestamp &lt;= #{endTime}
             </if>
             <if test="location != null and location != ''">
-                AND location LIKE CONCAT('%', #{location}, '%')
+                AND Location LIKE CONCAT('%', #{location}, '%')
             </if>
         </where>
     </select>
